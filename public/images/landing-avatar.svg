@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Client portrait">
+  <rect width="600" height="600" fill="#f8fafc"/>
+  <circle cx="300" cy="245" r="105" fill="#e8b923"/>
+  <circle cx="300" cy="225" r="70" fill="#0a1428"/>
+  <path d="M120 560c18-110 92-175 180-175s162 65 180 175z" fill="#18284a"/>
+  <path d="M240 268c28 34 92 34 120 0v75c-28 28-92 28-120 0z" fill="#e8b923"/>
+</svg>

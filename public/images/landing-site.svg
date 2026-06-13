@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Civil construction site">
+  <rect width="900" height="620" fill="#eef2f7"/>
+  <path d="M0 465h900v155H0z" fill="#cbd5e1"/>
+  <path d="M90 465h720" stroke="#0a1428" stroke-width="12" opacity=".2"/>
+  <g stroke="#e8b923" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 468V140"/>
+    <path d="M180 140h430"/>
+    <path d="M180 200h330"/>
+    <path d="M610 140l72 55"/>
+    <path d="M510 200v92"/>
+  </g>
+  <rect x="480" y="292" width="62" height="54" rx="8" fill="#e8b923"/>
+  <path d="M255 465V300h330v165z" fill="#18284a"/>
+  <g fill="#ffffff" opacity=".24">
+    <rect x="300" y="335" width="58" height="42"/>
+    <rect x="402" y="335" width="58" height="42"/>
+    <rect x="504" y="335" width="58" height="42"/>
+  </g>
+  <path d="M610 470h170l-42-82H648z" fill="#e8b923"/>
+  <circle cx="650" cy="488" r="28" fill="#0a1428"/>
+  <circle cx="735" cy="488" r="28" fill="#0a1428"/>
+</svg>

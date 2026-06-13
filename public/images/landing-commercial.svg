@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Commercial building">
+  <rect width="900" height="620" fill="#eef2f7"/>
+  <path d="M145 165h230v390H145z" fill="#0a1428"/>
+  <path d="M405 90h350v465H405z" fill="#18284a"/>
+  <path d="M115 555h670" stroke="#e8b923" stroke-width="14"/>
+  <g fill="#ffffff" opacity=".76">
+    <rect x="185" y="205" width="48" height="48"/>
+    <rect x="280" y="205" width="48" height="48"/>
+    <rect x="185" y="300" width="48" height="48"/>
+    <rect x="280" y="300" width="48" height="48"/>
+    <rect x="185" y="395" width="48" height="48"/>
+    <rect x="280" y="395" width="48" height="48"/>
+    <rect x="455" y="145" width="58" height="46"/>
+    <rect x="550" y="145" width="58" height="46"/>
+    <rect x="645" y="145" width="58" height="46"/>
+    <rect x="455" y="245" width="58" height="46"/>
+    <rect x="550" y="245" width="58" height="46"/>
+    <rect x="645" y="245" width="58" height="46"/>
+    <rect x="455" y="345" width="58" height="46"/>
+    <rect x="550" y="345" width="58" height="46"/>
+    <rect x="645" y="345" width="58" height="46"/>
+  </g>
+</svg>

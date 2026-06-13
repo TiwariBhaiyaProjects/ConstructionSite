@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Construction planning">
+  <rect width="900" height="620" fill="#f8fafc"/>
+  <rect x="115" y="95" width="520" height="390" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="8"/>
+  <path d="M170 170h350M170 240h260M170 310h310M170 380h210" stroke="#0a1428" stroke-width="16" stroke-linecap="round" opacity=".18"/>
+  <path d="M565 420 760 225" stroke="#e8b923" stroke-width="28" stroke-linecap="round"/>
+  <path d="m744 210 58-58 42 42-58 58z" fill="#0a1428"/>
+  <path d="m540 445 50-15-35-35z" fill="#18284a"/>
+  <circle cx="675" cy="165" r="54" fill="#e8b923" opacity=".2"/>
+  <path d="M610 548h190" stroke="#0a1428" stroke-width="14" stroke-linecap="round" opacity=".18"/>
+</svg>

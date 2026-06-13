@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Interior renovation">
+  <rect width="900" height="620" fill="#f8fafc"/>
+  <path d="M70 105h760v360H70z" fill="#fff7db"/>
+  <path d="M70 465h760v90H70z" fill="#d6b98d"/>
+  <path d="M145 170h260v210H145z" fill="#ffffff" stroke="#0a1428" stroke-width="10"/>
+  <path d="M495 190h230v275H495z" fill="#0a1428"/>
+  <path d="M520 220h180v52H520zM520 300h180v52H520z" fill="#e8b923"/>
+  <path d="M170 410h250v55H170z" fill="#18284a"/>
+  <path d="M195 325h190" stroke="#e8b923" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="650" cy="145" r="45" fill="#e8b923"/>
+</svg>

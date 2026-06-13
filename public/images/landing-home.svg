@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Modern home construction">
+  <rect width="900" height="620" fill="#eff6ff"/>
+  <path d="M0 455h900v165H0z" fill="#dbe4d4"/>
+  <path d="M145 455V250l270-150 270 150v205z" fill="#ffffff"/>
+  <path d="M110 268 415 92l305 176-38 61-267-152-267 152z" fill="#0a1428"/>
+  <rect x="225" y="340" width="115" height="115" fill="#e8b923"/>
+  <rect x="420" y="285" width="185" height="170" fill="#e5edf8"/>
+  <path d="M420 335h185M512 285v170" stroke="#94a3b8" stroke-width="8"/>
+  <path d="M95 485h710" stroke="#0a1428" stroke-width="10" opacity=".12"/>
+  <g fill="#0a1428" opacity=".18">
+    <rect x="70" y="445" width="95" height="22" rx="11"/>
+    <rect x="690" y="445" width="120" height="22" rx="11"/>
+  </g>
+</svg>
