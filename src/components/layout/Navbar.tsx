@@ -86,7 +86,7 @@ const Navbar = () => {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-1 h-1 bg-[#E8B923] rounded-full"></div>
-                <span className="tracking-wide">Trusted Since 2015</span>
+                <span className="tracking-wide">Trusted Since 2013</span>
               </div>
               <a 
                 href={`tel:${companyInfo.phone}`} 
