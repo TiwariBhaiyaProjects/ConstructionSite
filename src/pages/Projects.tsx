@@ -161,7 +161,7 @@ const Projects = () => {
                         <p className="font-black text-[#0A1428] text-lg">{project.value}</p>
                       </div>
                       <Button variant="outline" asChild className="rounded-full hover:bg-[#0A1428] hover:text-white border-[#0A1428] text-[#0A1428]">
-                        <a href="#contact" className="flex items-center gap-1">Enquire <ArrowRight className="w-4 h-4 ml-1" /></a>
+                        <a href="/about#contact" className="flex items-center gap-1">Enquire <ArrowRight className="w-4 h-4 ml-1" /></a>
                       </Button>
                     </div>
                   </CardContent>
@@ -187,7 +187,7 @@ const Projects = () => {
                 Stay updated with real-time site photos, weekly milestones, and comprehensive tracking for transparency you can trust.
               </p>
               <Button size="lg" asChild className="bg-[#E8B923] hover:bg-[#D4A017] text-[#0A1428] font-bold rounded-full px-8 py-7 shadow-[0_8px_30px_rgba(232,185,35,0.4)] transition-all hover:scale-105">
-                <a href="#contact" className="flex items-center gap-2">
+                <a href="/about#contact" className="flex items-center gap-2">
                   Estimate Your Project
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </a>

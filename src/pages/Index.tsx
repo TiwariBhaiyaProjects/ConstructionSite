@@ -376,8 +376,7 @@ const Index = () => {
               </h1>
 
               <p className="text-xl md:text-2xl text-white/90 max-w-2xl mb-8 leading-relaxed drop-shadow-md">
-                Premium residential & commercial construction, renovation, and interior solutions across Jharkhand. 
-                250+ projects delivered with 99% client satisfaction.
+                Leading construction company in Bihar & Jharkhand with over 10 years of excellence executing major highways, dams, civil infrastructure, and heavy earthmoving projects.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-10">

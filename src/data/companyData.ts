@@ -5,7 +5,7 @@ export const companyInfo = {
   phone: "+91 9122443841",
   whatsapp: "+91 9122443841",
   email: "singhrajkishor8@gmail.com",
-  address: "At+ P.O.- Jamalpur, P.S. Athmalgola, Dist.- Patna, Pin- 803211, State- Bihar",
+  address: "Reg. Office: 411, Hem Plaza, Beside LIC Building, Fraser Road, Patna-800001",
   serviceArea: "Bihar",
   gstin: "10CXHPK1182P1ZC",
   msme: "Govt Contractor License: 59/2020, 1077/19, 233/19",
