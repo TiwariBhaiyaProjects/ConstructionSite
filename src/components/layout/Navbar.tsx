@@ -41,13 +41,9 @@ const companyInfo = {
 const navLinks = [
   { name: "Home", path: "/", icon: Home },
   { name: "About Us", path: "/about", icon: Users },
-  { name: "Services", path: "/services", icon: Building2 },
-  { name: "Projects", path: "/projects", icon: Briefcase },
-  { name: "Gallery", path: "/gallery", icon: Image },
-  { name: "Packages", path: "/packages", icon: Package },
-  { name: "Blog", path: "/blog", icon: FileText },
-  { name: "FAQ", path: "/faq", icon: HelpCircle },
-  { name: "Contact", path: "/contact", icon: MessageCircle },
+  { name: "Current Projects", path: "/projects", icon: Briefcase },
+  { name: "Completed", path: "/completed-projects", icon: Image },
+  { name: "Machinery", path: "/machinery", icon: Package },
 ];
 
 const Navbar = () => {
@@ -56,10 +52,9 @@ const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const location = useLocation();
 
-  // Visible main nav items (rest in dropdown)
-  const visibleNames = ["Home", "About Us", "Services", "Projects", "Gallery", "Contact"];
-  const mainNavLinks = navLinks.filter(link => visibleNames.includes(link.name));
-  const moreNavLinks = navLinks.filter(link => !visibleNames.includes(link.name));
+  // All items fit on main nav now
+  const mainNavLinks = navLinks;
+  const moreNavLinks: typeof navLinks = [];
 
   useEffect(() => {
     const handleScroll = () => {
