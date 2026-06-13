@@ -86,7 +86,7 @@ const Navbar = () => {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-1 h-1 bg-[#E8B923] rounded-full"></div>
-                <span className="tracking-wide">Trusted Since 2015</span>
+                <span className="tracking-wide">Trusted Since 2013</span>
               </div>
               <a 
                 href={`tel:${companyInfo.phone}`} 
@@ -288,11 +288,11 @@ const Navbar = () => {
                 asChild 
                 className="relative overflow-hidden bg-gradient-to-r from-[#E8B923] to-[#D4A017] hover:from-[#D4A017] hover:to-[#E8B923] text-[#0A1428] font-bold px-5 py-4 rounded-xl shadow-lg shadow-[#E8B923]/30 transition-all duration-300 hover:scale-105 hover:shadow-xl group"
               >
-                <Link to="/calculator" className="flex items-center gap-1.5 text-xs">
+                <a href="/about#contact" className="flex items-center gap-1.5 text-xs">
                   <Calculator className="w-3.5 h-3.5 group-hover:rotate-12 transition-transform" />
                   <span className="tracking-wide">FREE QUOTE</span>
                   <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500"></div>
-                </Link>
+                </a>
               </Button>
             </div>
 
@@ -381,10 +381,10 @@ const Navbar = () => {
                 asChild 
                 className="bg-gradient-to-r from-[#E8B923] to-[#D4A017] text-[#0A1428] font-bold py-6 rounded-xl w-full group"
               >
-                <Link to="/about#contact" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2">
+                <a href="/about#contact" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2">
                   <Calculator className="w-4 h-4 group-hover:rotate-12 transition-transform" />
                   GET FREE QUOTE
-                </Link>
+                </a>
               </Button>
               <Button 
                 asChild 

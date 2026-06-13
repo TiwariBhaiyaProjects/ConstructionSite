@@ -59,20 +59,7 @@ import { motion } from "framer-motion";
 // COMPLETE DATA - HIGH PROFILE CONSTRUCTION COMPANY
 // ============================================
 
-const companyInfo = {
-  name: "Rajnandini Construction",
-  established: "2015",
-  phone: "+91 98765 43210",
-  whatsapp: "+91 98765 43210",
-  email: "info@rajnandiniconstruction.com",
-  address: "Near Kanka Chowk, Ranchi, Jharkhand - 834001",
-  serviceArea: "Jharkhand",
-  gstin: "20AAQFR1234B1Z5",
-  msme: "UDYAM-JH-12-0001234",
-  iso: "ISO 9001:2015 Certified",
-  workingHours: "Mon - Sat: 8:00 AM - 7:00 PM",
-  description: "Rajnandini Construction is a trusted name in Jharkhand's construction industry with over 10 years of excellence in residential and commercial projects.",
-};
+
 
 const landingImages = {
   hero: "/images/modi-bridge-walk.jpeg",
@@ -85,14 +72,7 @@ const landingImages = {
   avatar: "/images/modi-nitish.jpeg",
 };
 
-const stats = [
-  { value: "250+", label: "Projects Completed", icon: "building" },
-  { value: "10+", label: "Years Experience", icon: "clock" },
-  { value: "99%", label: "Client Satisfaction", icon: "star" },
-  { value: "150+", label: "Happy Families", icon: "users" },
-  { value: "25+", label: "Expert Engineers", icon: "hardhat" },
-  { value: "50+", label: "Awards Won", icon: "trophy" },
-];
+import { stats, companyInfo } from "@/data/companyData";
 
 const services = [
   {
@@ -437,7 +417,7 @@ const Index = () => {
       {/* ========== 2. MARQUEE TRUST BANNER ========== */}
       <div className="bg-[#E8B923] py-3 overflow-hidden">
         <div className="flex animate-marquee whitespace-nowrap">
-          {["✓ 10+ Years Excellence", "✓ 250+ Projects Delivered", "✓ 99% Client Satisfaction", "✓ ISO 9001:2015 Certified", "✓ Lifetime Structural Warranty", "✓ 24/7 Client Support"].map((text, i) => (
+          {["✓ Over a Decade of Excellence", "✓ 11+ Major Projects Delivered", "✓ Trusted Infrastructure Partner", "✓ 100+ Heavy Machines", "✓ Government Approved Contractor", "✓ Timely Execution"].map((text, i) => (
             <span key={i} className="mx-8 text-[#0A1428] font-semibold">{text}</span>
           ))}
         </div>
@@ -446,7 +426,7 @@ const Index = () => {
       {/* ========== 3. STATS COUNTER SECTION ========== */}
       <section className="py-20 bg-[#0A1428]">
         <div className="container-custom max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {stats.map((stat, i) => (
               <motion.div 
                 key={i} 
@@ -540,7 +520,7 @@ const Index = () => {
         <div className="container-custom max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">Building Trust Since 2015</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">Building Trust Since 2013</h2>
             <p className="text-white/70 max-w-2xl mx-auto">We combine expertise, quality materials, and transparent processes</p>
           </div>
 

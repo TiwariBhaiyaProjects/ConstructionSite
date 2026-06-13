@@ -768,21 +768,12 @@ export const machineryList = [
 
 export const machinery = [
   {
-    id: 1,
-    name: "Dumper / Truck",
-    category: "tipper",
-    specs: "Qty: 35",
-    status: "Available",
-    image: "https://images.unsplash.com/photo-1519688586071-72f5bc25e6e5?q=80&w=800",
-    description: "High-capacity dumpers and trucks for bulk material hauling.",
-  },
-  {
     id: 2,
     name: "Excavators",
     category: "excavator",
     specs: "Qty: 4",
     status: "On Site",
-    image: "https://images.unsplash.com/photo-1541888081-3444498305c4?q=80&w=800",
+    image: "/images/Excavators (Heavy-Duty).png",
     description: "Heavy-duty excavators for large-scale earthwork and digging operations.",
   },
   {
@@ -791,7 +782,7 @@ export const machinery = [
     category: "other",
     specs: "Qty: 3",
     status: "Available",
-    image: "https://images.unsplash.com/photo-1621815183319-32204c35fb0a?q=80&w=800",
+    image: "/images/Motor_Grader.png",
     description: "Motor graders for road leveling and grading operations.",
   },
   {
@@ -800,7 +791,7 @@ export const machinery = [
     category: "other",
     specs: "Qty: 2",
     status: "On Site",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=800",
+    image: "/images/Dozer.png",
     description: "Dozers for heavy earthmoving and pushing operations.",
   },
   {
@@ -809,7 +800,7 @@ export const machinery = [
     category: "jcb",
     specs: "Qty: 3",
     status: "Available",
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800",
+    image: "/images/Backhoe_Loader.png",
     description: "Versatile backhoe loaders for excavation and loading operations.",
   },
   {
@@ -821,22 +812,14 @@ export const machinery = [
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
     description: "High-capacity concrete mixing plants for large projects.",
   },
-  {
-    id: 7,
-    name: "Hot Mix Plant 120 TPH",
-    category: "other",
-    specs: "120 TPH (Qty: 1)",
-    status: "Available",
-    image: "https://images.unsplash.com/photo-1535732820275-9c608db911cc?q=80&w=800",
-    description: "Asphalt plant for manufacturing road paving materials.",
-  },
+
   {
     id: 8,
     name: "Transit Mixer / Miller",
     category: "other",
     specs: "Qty: 4",
     status: "On Site",
-    image: "https://images.unsplash.com/photo-1605330368146-5db2e6ffab53?q=80&w=800",
+    image: "/images/Transit_Mixer_Miller.png",
     description: "Transit mixers for transporting ready-mix concrete to sites.",
   },
   {
@@ -845,7 +828,7 @@ export const machinery = [
     category: "roller",
     specs: "Qty: 3",
     status: "Available",
-    image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=800",
+    image: "/images/Soil_Compactor.png",
     description: "Heavy-duty compactors for soil and road foundation preparation.",
   },
   {
@@ -854,7 +837,7 @@ export const machinery = [
     category: "crane",
     specs: "Qty: 2",
     status: "On Site",
-    image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=800",
+    image: "/images/Hydra_Crane.png",
     description: "Mobile hydra cranes for material handling and lifting.",
   }
 ];

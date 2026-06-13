@@ -138,10 +138,10 @@ const Machinery = () => {
             </div>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" variant="secondary" asChild>
-                <Link to="/contact">
+                <a href="/about#contact">
                   Inquire Now
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </Link>
+                </a>
               </Button>
               <Button 
                 size="lg" 

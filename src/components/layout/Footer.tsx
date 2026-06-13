@@ -141,8 +141,8 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} {companyInfo.name}. All rights reserved.
           </p>
           <div className="flex gap-4 text-xs text-zinc-500">
-            <Link to="/privacy-policy" className="hover:text-zinc-300 transition-colors">Privacy Policy</Link>
-            <Link to="/terms-of-service" className="hover:text-zinc-300 transition-colors">Terms of Service</Link>
+            <Link to="#" className="hover:text-zinc-300 transition-colors">Privacy Policy</Link>
+            <Link to="#" className="hover:text-zinc-300 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
