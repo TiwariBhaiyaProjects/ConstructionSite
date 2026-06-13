@@ -5,6 +5,7 @@ import Layout from "@/components/layout/Layout";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { designCatalog, galleryItems } from "@/data/companyData";
 
@@ -68,22 +69,33 @@ const Gallery = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {filteredItems.map((item) => (
-              <Card key={item.title} className="overflow-hidden group bg-card">
-                <div className="relative h-56 overflow-hidden">
+              <Dialog key={item.title}>
+                <DialogTrigger asChild>
+                  <Card className="overflow-hidden group bg-card cursor-pointer">
+                    <div className="relative h-56 overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 to-transparent" />
+                      <Badge className="absolute top-4 left-4 bg-secondary">
+                        {item.type}
+                      </Badge>
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <h3 className="font-bold text-background">{item.title}</h3>
+                      </div>
+                    </div>
+                  </Card>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl w-[90vw] p-0 overflow-hidden border-none bg-transparent shadow-none">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-auto object-contain max-h-[85vh] rounded-md"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 to-transparent" />
-                  <Badge className="absolute top-4 left-4 bg-secondary">
-                    {item.type}
-                  </Badge>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="font-bold text-background">{item.title}</h3>
-                  </div>
-                </div>
-              </Card>
+                </DialogContent>
+              </Dialog>
             ))}
           </div>
         </div>
@@ -107,28 +119,39 @@ const Gallery = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {designCatalog.map((design) => (
-              <Card key={design.title} className="overflow-hidden bg-card">
-                <div className="h-48 overflow-hidden">
+              <Dialog key={design.title}>
+                <DialogTrigger asChild>
+                  <Card className="overflow-hidden bg-card cursor-pointer group">
+                    <div className="h-48 overflow-hidden">
+                      <img
+                        src={design.image}
+                        alt={design.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </div>
+                    <CardContent className="p-5">
+                      <Badge variant="outline" className="mb-3">
+                        {design.type}
+                      </Badge>
+                      <h3 className="text-lg font-bold mb-2">{design.title}</h3>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
+                        <Ruler className="w-4 h-4" />
+                        {design.size}
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        {design.bestFor}
+                      </p>
+                    </CardContent>
+                  </Card>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl w-[90vw] p-0 overflow-hidden border-none bg-transparent shadow-none">
                   <img
                     src={design.image}
                     alt={design.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto object-contain max-h-[85vh] rounded-md"
                   />
-                </div>
-                <CardContent className="p-5">
-                  <Badge variant="outline" className="mb-3">
-                    {design.type}
-                  </Badge>
-                  <h3 className="text-lg font-bold mb-2">{design.title}</h3>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                    <Ruler className="w-4 h-4" />
-                    {design.size}
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {design.bestFor}
-                  </p>
-                </CardContent>
-              </Card>
+                </DialogContent>
+              </Dialog>
             ))}
           </div>
         </div>

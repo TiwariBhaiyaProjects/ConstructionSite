@@ -19,6 +19,10 @@ import {
   teamMembers,
   vendorPartners,
   workExperience,
+  aboutUsText,
+  collaborativeExperience,
+  contractorLicenses,
+  financialTurnover,
 } from "@/data/companyData";
 import { motion } from "framer-motion";
 
@@ -69,15 +73,10 @@ const About = () => {
                 Building trust since {companyInfo.established}
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
-                Rajnandini Construction was started with a focus on reliable civil execution and infrastructure
-                development. The website is now structured for public clients who
-                want home construction, commercial work, renovation, planning,
-                interior work and transparent project communication.
+                {aboutUsText[0]}
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our working style is simple: understand the requirement, visit
-                the site, prepare a realistic estimate, define material scope and
-                execute work stage by stage with clear updates.
+                {aboutUsText[1]}
               </p>
               <div className="grid sm:grid-cols-3 gap-4 mt-8">
                 {[
@@ -160,42 +159,85 @@ const About = () => {
               Licenses & Certifications
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-              Public trust signals
+              Registered & Verified
             </h2>
-            <p className="text-muted-foreground">
-              Add scanned documents or certificate images here before final
-              launch for stronger trust and verification.
-            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <Award className="w-9 h-9 text-secondary mb-4" />
-                <h3 className="font-bold mb-2">{companyInfo.iso}</h3>
-                <p className="text-sm text-muted-foreground">
-                  Quality management certification shown for trust.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <BadgeCheck className="w-9 h-9 text-secondary mb-4" />
-                <h3 className="font-bold mb-2">MSME Registration</h3>
-                <p className="text-sm text-muted-foreground">
-                  Registration No. {companyInfo.msme}
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <BadgeCheck className="w-9 h-9 text-secondary mb-4" />
-                <h3 className="font-bold mb-2">GSTIN</h3>
-                <p className="text-sm text-muted-foreground">
-                  {companyInfo.gstin}
-                </p>
-              </CardContent>
-            </Card>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {contractorLicenses.map((license) => (
+              <Card key={license.name} className="bg-card">
+                <CardContent className="p-6">
+                  <BadgeCheck className="w-9 h-9 text-secondary mb-4" />
+                  <h3 className="font-bold mb-2">{license.name}</h3>
+                  <p className="text-sm font-semibold text-primary mb-1">
+                    {license.type}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    {license.authority}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-muted">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div>
+              <span className="text-secondary font-semibold text-sm uppercase tracking-wider">
+                Financial Strength
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
+                Steady Financial Turnover
+              </h2>
+              <div className="overflow-x-auto rounded-lg border bg-card">
+                <table className="w-full text-sm text-left">
+                  <thead className="bg-primary text-primary-foreground">
+                    <tr>
+                      <th className="px-6 py-4 font-semibold">Financial Year</th>
+                      <th className="px-6 py-4 font-semibold text-right">Turnover</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y">
+                    {financialTurnover.map((item) => (
+                      <tr key={item.year} className="hover:bg-muted/50 transition-colors">
+                        <td className="px-6 py-4 font-medium">{item.year}</td>
+                        <td className="px-6 py-4 text-right font-bold text-primary">{item.turnover}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div>
+              <span className="text-secondary font-semibold text-sm uppercase tracking-wider">
+                Partnerships
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
+                Collaborative Experience
+              </h2>
+              <div className="space-y-4">
+                {collaborativeExperience.map((exp) => (
+                  <Card key={exp.year} className="bg-card">
+                    <CardContent className="p-5">
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="px-3 py-1 bg-secondary/20 text-secondary-foreground text-xs font-bold rounded-full">
+                          {exp.year}
+                        </span>
+                        <span className="font-bold text-primary">{exp.value}</span>
+                      </div>
+                      <h3 className="font-bold text-lg mb-1">{exp.client}</h3>
+                      <p className="text-sm text-muted-foreground">
+                        {exp.description}
+                      </p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
