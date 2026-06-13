@@ -964,7 +964,7 @@ const Index = () => {
           <h3 className="text-2xl font-bold text-[#0A1428] mb-2">Subscribe to Our Newsletter</h3>
           <p className="text-[#0A1428]/70 mb-6">Get latest construction tips, offers, and project updates</p>
           <form className="flex flex-wrap gap-3 justify-center">
-            <input type="email" placeholder="Enter your email" className="px-6 py-3 rounded-full w-80 focus:outline-none focus:ring-2 focus:ring-[#0A1428]" />
+            <input type="email" placeholder="Enter your email" className="px-6 py-3 rounded-full w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-[#0A1428]" />
             <Button className="bg-[#0A1428] hover:bg-[#1a2a4a] text-white rounded-full px-8">Subscribe</Button>
           </form>
         </div>
