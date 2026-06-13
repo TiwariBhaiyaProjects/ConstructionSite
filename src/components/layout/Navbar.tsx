@@ -327,6 +327,7 @@ const Navbar = () => {
                 <Link
                   key={link.path}
                   to={link.path}
+                  onClick={() => setIsOpen(false)}
                   className={`flex items-center gap-4 px-5 py-4 rounded-xl text-base font-semibold transition-all duration-300 ${
                     isActive 
                       ? "bg-gradient-to-r from-[#E8B923]/20 to-transparent text-[#E8B923] border-l-4 border-[#E8B923]" 
@@ -380,7 +381,7 @@ const Navbar = () => {
                 asChild 
                 className="bg-gradient-to-r from-[#E8B923] to-[#D4A017] text-[#0A1428] font-bold py-6 rounded-xl w-full group"
               >
-                <Link to="/calculator" className="flex items-center justify-center gap-2">
+                <Link to="/about#contact" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2">
                   <Calculator className="w-4 h-4 group-hover:rotate-12 transition-transform" />
                   GET FREE QUOTE
                 </Link>
