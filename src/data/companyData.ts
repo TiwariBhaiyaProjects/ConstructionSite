@@ -5,7 +5,7 @@ export const companyInfo = {
   phone: "+91 9122443841",
   whatsapp: "+91 9122443841",
   email: "singhrajkishor8@gmail.com",
-  address: "At+ P.O.- Jamalpur, P.S. Athmalgola, Dist.- Patna, Pin- 803211, State- Bihar",
+  address: "Reg. Office: 411, Hem Plaza, Beside LIC Building, Fraser Road, Patna-800001",
   serviceArea: "Bihar",
   gstin: "10CXHPK1182P1ZC",
   msme: "Govt Contractor License: 59/2020, 1077/19, 233/19",
@@ -25,16 +25,10 @@ export const stats = [
 // Navigation links
 export const navLinks = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
-  { name: "Packages", path: "/packages" },
-  { name: "Projects", path: "/projects" },
+  { name: "About & Contact", path: "/about" },
+  { name: "Current Projects", path: "/projects" },
+  { name: "Completed Projects", path: "/completed-projects" },
   { name: "Machinery", path: "/machinery" },
-  { name: "Gallery", path: "/gallery" },
-  { name: "Calculator", path: "/calculator" },
-  { name: "FAQ", path: "/faq" },
-  { name: "Blog", path: "/blog" },
-  { name: "Contact", path: "/contact" },
 ];
 
 // Core services for public construction website
@@ -779,7 +773,7 @@ export const machinery = [
     category: "tipper",
     specs: "Qty: 35",
     status: "Available",
-    image: "/images/night-highway.jpeg",
+    image: "https://images.unsplash.com/photo-1519688586071-72f5bc25e6e5?q=80&w=800",
     description: "High-capacity dumpers and trucks for bulk material hauling.",
   },
   {
@@ -788,7 +782,7 @@ export const machinery = [
     category: "excavator",
     specs: "Qty: 4",
     status: "On Site",
-    image: "/images/modi-waving.jpeg",
+    image: "https://images.unsplash.com/photo-1541888081-3444498305c4?q=80&w=800",
     description: "Heavy-duty excavators for large-scale earthwork and digging operations.",
   },
   {
@@ -797,7 +791,7 @@ export const machinery = [
     category: "other",
     specs: "Qty: 3",
     status: "Available",
-    image: "/images/ribbon-cutting.jpeg",
+    image: "https://images.unsplash.com/photo-1621815183319-32204c35fb0a?q=80&w=800",
     description: "Motor graders for road leveling and grading operations.",
   },
   {
@@ -806,7 +800,7 @@ export const machinery = [
     category: "other",
     specs: "Qty: 2",
     status: "On Site",
-    image: "/images/team-members.jpeg",
+    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=800",
     description: "Dozers for heavy earthmoving and pushing operations.",
   },
   {
@@ -815,7 +809,7 @@ export const machinery = [
     category: "jcb",
     specs: "Qty: 3",
     status: "Available",
-    image: "/images/hero-bridge.jpeg",
+    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800",
     description: "Versatile backhoe loaders for excavation and loading operations.",
   },
   {
@@ -824,7 +818,7 @@ export const machinery = [
     category: "other",
     specs: "30m3 & 60m3 (Qty: 2)",
     status: "Available",
-    image: "/images/site-highway.jpeg",
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
     description: "High-capacity concrete mixing plants for large projects.",
   },
   {
@@ -833,7 +827,7 @@ export const machinery = [
     category: "other",
     specs: "120 TPH (Qty: 1)",
     status: "Available",
-    image: "/images/modi-nitish.jpeg",
+    image: "https://images.unsplash.com/photo-1535732820275-9c608db911cc?q=80&w=800",
     description: "Asphalt plant for manufacturing road paving materials.",
   },
   {
@@ -842,7 +836,7 @@ export const machinery = [
     category: "other",
     specs: "Qty: 4",
     status: "On Site",
-    image: "/images/aerial-roundabout.jpeg",
+    image: "https://images.unsplash.com/photo-1605330368146-5db2e6ffab53?q=80&w=800",
     description: "Transit mixers for transporting ready-mix concrete to sites.",
   },
   {
@@ -851,8 +845,8 @@ export const machinery = [
     category: "roller",
     specs: "Qty: 3",
     status: "Available",
-    image: "/images/night-highway.jpeg",
-    description: "Road rollers for soil and asphalt compaction.",
+    image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=800",
+    description: "Heavy-duty compactors for soil and road foundation preparation.",
   },
   {
     id: 10,
@@ -860,8 +854,8 @@ export const machinery = [
     category: "crane",
     specs: "Qty: 2",
     status: "On Site",
-    image: "/images/modi-waving.jpeg",
-    description: "Mobile cranes for heavy lifting and loading operations.",
+    image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=800",
+    description: "Mobile hydra cranes for material handling and lifting.",
   }
 ];
 

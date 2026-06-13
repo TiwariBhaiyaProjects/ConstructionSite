@@ -376,13 +376,12 @@ const Index = () => {
               </h1>
 
               <p className="text-xl md:text-2xl text-white/90 max-w-2xl mb-8 leading-relaxed drop-shadow-md">
-                Premium residential & commercial construction, renovation, and interior solutions across Jharkhand. 
-                250+ projects delivered with 99% client satisfaction.
+                Leading construction company in Bihar & Jharkhand with over 10 years of excellence executing major highways, dams, civil infrastructure, and heavy earthmoving projects.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-10">
                 <Button size="lg" className="bg-[#E8B923] hover:bg-[#D4A017] text-[#0A1428] px-8 py-7 text-lg font-bold rounded-full transition-all duration-300 hover:scale-105 shadow-[0_8px_30px_rgba(232,185,35,0.4)]" asChild>
-                  <Link to="/calculator"><Calculator className="mr-2 w-5 h-5" /> Free Estimate</Link>
+                  <a href="/about#contact"><Calculator className="mr-2 w-5 h-5" /> Free Estimate</a>
                 </Button>
                 <Button size="lg" variant="outline" className="border-2 border-white/50 !bg-white/10 backdrop-blur-md !text-white hover:!bg-white hover:!text-[#0A1428] px-8 py-7 text-lg font-semibold rounded-full transition-all duration-300 shadow-lg" asChild>
                   <a href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle className="mr-2 w-5 h-5" /> WhatsApp</a>
@@ -467,61 +466,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ========== 4. SERVICES SECTION - WITH ICONS & FEATURES ========== */}
-      <section className="py-24 bg-[#F8F6F0]">
-        <div className="container-custom max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider border-b-2 border-[#E8B923] pb-2">Our Services</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-6 mb-4">Comprehensive Construction Solutions</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">From concept to completion, we handle everything with precision and care</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <motion.div
-                key={service.id}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <Card className="group border border-white/20 shadow-xl hover:shadow-[0_20px_50px_rgba(0,0,0,0.1)] overflow-hidden bg-white/70 backdrop-blur-xl rounded-[2rem] transition-all duration-500 hover:-translate-y-3 relative">
-                  <div className="absolute inset-0 bg-gradient-to-b from-white/50 to-white/10 pointer-events-none"></div>
-                  <div className="relative h-64 overflow-hidden rounded-t-[2rem]">
-                    <img src={service.image} onError={handleImageError} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    <div className="absolute bottom-4 left-6 bg-white/20 backdrop-blur-md border border-white/30 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                      {service.category}
-                    </div>
-                  </div>
-                  <CardContent className="p-8 relative z-10">
-                    <h3 className="text-2xl font-extrabold text-[#0A1428] mb-3">{service.title}</h3>
-                    <p className="text-gray-600 mb-5 leading-relaxed">{service.description}</p>
-                    <div className="flex flex-wrap gap-2 mb-6">
-                      {service.features.slice(0, 3).map((feature, idx) => (
-                        <span key={idx} className="text-[11px] font-bold uppercase tracking-wider bg-[#0A1428]/5 text-[#0A1428] px-3 py-1.5 rounded-md border border-[#0A1428]/10">✓ {feature}</span>
-                      ))}
-                    </div>
-                    <div className="flex items-center justify-between mt-2 pt-6 border-t border-gray-200/50">
-                      <span className="text-[#E8B923] font-black text-lg">{service.price}</span>
-                      <Link to="/services" className="text-[#0A1428] font-bold hover:text-[#E8B923] transition-colors inline-flex items-center gap-1 uppercase tracking-wider text-sm group-hover:translate-x-1 duration-300">
-                        Know More <ArrowRight className="w-4 h-4" />
-                      </Link>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Button asChild className="bg-[#0A1428] hover:bg-[#1a2a4a] text-white rounded-full px-8 py-6 text-lg">
-              <Link to="/services">View All Services <ArrowRight className="ml-2" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* ========== 5. FEATURED PROJECTS WITH FILTER ========== */}
       <section className="py-24 bg-white">
         <div className="container-custom max-w-7xl mx-auto px-6">
@@ -591,39 +535,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ========== 6. GALLERY PREVIEW SECTION ========== */}
-      <section className="py-24 bg-[#F8F6F0]">
-        <div className="container-custom max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider border-b-2 border-[#E8B923] pb-2">Visual Gallery</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-6 mb-4">See Our Work In Action</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Real photos, 3D designs, and construction progress</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {galleryCategories.map((cat, i) => (
-              <Link key={i} to="/gallery" className="group relative overflow-hidden rounded-2xl shadow-xl">
-                <img src={cat.image} onError={handleImageError} alt={cat.name} className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:bg-black/50 transition-all" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-xl font-bold">{cat.name}</h3>
-                  <p className="text-sm opacity-80">{cat.count} Photos</p>
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all">
-                  <ZoomIn className="w-12 h-12 text-white bg-black/50 rounded-full p-2" />
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <Button asChild className="bg-[#E8B923] hover:bg-[#D4A017] text-[#0A1428] rounded-full px-8 py-6">
-              <Link to="/gallery">View Full Gallery <ArrowRight className="ml-2" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* ========== 7. WHY CHOOSE US + PROCESS + MATERIALS ========== */}
       <section className="py-24 bg-[#0A1428] text-white">
         <div className="container-custom max-w-7xl mx-auto px-6">
@@ -673,7 +584,7 @@ const Index = () => {
                 ))}
               </div>
               <div className="mt-6 text-center">
-                <Link to="/materials" className="text-[#E8B923] hover:underline inline-flex items-center gap-1">View complete material list <ArrowRight className="w-4 h-4" /></Link>
+                <Link to="/about" className="text-[#E8B923] hover:underline inline-flex items-center gap-1">View complete material list <ArrowRight className="w-4 h-4" /></Link>
               </div>
             </div>
           </div>
@@ -713,82 +624,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-8">
-            <Link to="/tracking" className="text-[#0A1428] font-semibold hover:text-[#E8B923] inline-flex items-center gap-1">View all ongoing projects <ArrowRight className="w-4 h-4" /></Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 9. PACKAGES / PRICING SECTION ========== */}
-      <section className="py-24 bg-white">
-        <div className="container-custom max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">Pricing Plans</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-4 mb-4">Choose Your Package</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Transparent pricing with no hidden costs. Pick what suits your budget</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {packages.map((pkg) => (
-              <Card key={pkg.id} className={`relative overflow-hidden border-0 shadow-xl rounded-2xl transition-all duration-300 hover:-translate-y-2 ${pkg.popular ? 'ring-2 ring-[#E8B923] scale-105' : ''}`}>
-                {pkg.popular && (
-                  <div className="absolute top-0 right-0 bg-[#E8B923] text-[#0A1428] px-4 py-1 text-sm font-bold rotate-45 translate-x-8 translate-y-2 w-32 text-center">
-                    Popular
-                  </div>
-                )}
-                <CardContent className="p-8 text-center">
-                  <h3 className="text-2xl font-bold text-[#0A1428] mb-2">{pkg.name}</h3>
-                  <div className="text-3xl font-bold text-[#E8B923] mb-2">{pkg.price}</div>
-                  <p className="text-sm text-gray-500 mb-6">{pkg.bestFor}</p>
-                  <ul className="space-y-3 text-left mb-8">
-                    {pkg.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm"><CheckCircle className="w-4 h-4 text-[#E8B923]" /> {feature}</li>
-                    ))}
-                  </ul>
-                  <Button asChild className={`w-full rounded-full ${pkg.popular ? 'bg-[#E8B923] text-[#0A1428] hover:bg-[#D4A017]' : 'bg-[#0A1428] text-white hover:bg-[#1a2a4a]'}`}>
-                    <Link to="/calculator">Get Quote</Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 10. CLIENT TESTIMONIALS WITH VIDEO ========== */}
-      <section className="py-24 bg-[#F8F6F0]">
-        <div className="container-custom max-w-6xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">Testimonials</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-4 mb-4">What Our Clients Say</h2>
-            <p className="text-gray-600">Trusted by 250+ families across Jharkhand</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {testimonials.map((t, i) => (
-              <Card key={i} className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all">
-                <div className="flex gap-4 mb-4">
-                  <img src={t.image} onError={handleImageError} alt={t.name} className="w-14 h-14 rounded-full object-cover" />
-                  <div>
-                    <h4 className="font-bold text-[#0A1428] text-lg">{t.name}</h4>
-                    <p className="text-sm text-gray-500">{t.project}</p>
-                    <div className="flex gap-1 mt-1">
-                      {[...Array(t.rating)].map((_, idx) => <Star key={idx} className="w-4 h-4 fill-[#E8B923] text-[#E8B923]" />)}
-                    </div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <Quote className="w-8 h-8 text-[#E8B923]/20 absolute -top-2 -left-2" />
-                  <p className="text-gray-700 italic leading-relaxed pl-6">“{t.quote}”</p>
-                </div>
-                <p className="text-xs text-gray-400 mt-4">{t.date}</p>
-              </Card>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <Button asChild variant="outline" className="border-2 border-[#0A1428] text-[#0A1428] hover:bg-[#0A1428] hover:text-white rounded-full">
-              <Link to="/testimonials">Read More Reviews <ArrowRight className="ml-2" /></Link>
-            </Button>
+            <Link to="/projects" className="text-[#0A1428] font-semibold hover:text-[#E8B923] inline-flex items-center gap-1">View all ongoing projects <ArrowRight className="w-4 h-4" /></Link>
           </div>
         </div>
       </section>
@@ -809,98 +645,6 @@ const Index = () => {
                 <p className="font-semibold text-sm">{award.name}</p>
                 <p className="text-xs text-gray-500">{award.organization} • {award.year}</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 12. BLOG / KNOWLEDGE SECTION ========== */}
-      <section className="py-24 bg-[#F8F6F0]">
-        <div className="container-custom max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">Knowledge Hub</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-4 mb-4">Construction Tips & Insights</h2>
-            <p className="text-gray-600">Expert advice, latest trends, and helpful guides</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {blogPosts.map((post) => (
-              <Link key={post.id} to="/blog" className="group">
-                <Card className="overflow-hidden border-0 shadow-xl rounded-2xl hover:shadow-2xl transition-all">
-                  <div className="h-56 overflow-hidden">
-                    <img src={post.image} onError={handleImageError} alt={post.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                  </div>
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-2 text-xs text-[#E8B923] mb-2">
-                      <span>{post.category}</span>
-                      <span>•</span>
-                      <span>{post.date}</span>
-                      <span>•</span>
-                      <span>{post.readTime}</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-[#0A1428] mb-2 group-hover:text-[#E8B923] transition-colors">{post.title}</h3>
-                    <p className="text-gray-600 text-sm">{post.excerpt}</p>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <Button asChild className="bg-[#0A1428] hover:bg-[#1a2a4a] text-white rounded-full">
-              <Link to="/blog">View All Articles <ArrowRight className="ml-2" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 13. FAQ SECTION - ACCORDION STYLE ========== */}
-      <section className="py-24 bg-white">
-        <div className="container-custom max-w-4xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">FAQ</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-4 mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-600">Got questions? We've got answers</p>
-          </div>
-
-          <div className="space-y-4">
-            {faqs.map((faq, i) => (
-              <details key={i} className="group border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-all">
-                <summary className="flex justify-between items-center cursor-pointer list-none">
-                  <span className="font-semibold text-[#0A1428] text-lg">{faq.q}</span>
-                  <ChevronRight className="w-5 h-5 text-[#E8B923] group-open:rotate-90 transition-transform" />
-                </summary>
-                <p className="text-gray-600 mt-4 pl-4 border-l-2 border-[#E8B923]">{faq.a}</p>
-              </details>
-            ))}
-          </div>
-
-          <div className="text-center mt-8">
-            <Link to="/faq" className="text-[#E8B923] hover:underline">View all FAQs →</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 14. TEAM SECTION ========== */}
-      <section className="py-24 bg-[#F8F6F0]">
-        <div className="container-custom max-w-6xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <span className="text-[#E8B923] font-semibold text-sm uppercase tracking-wider">Our Team</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0A1428] mt-4 mb-4">Meet Our Experts</h2>
-            <p className="text-gray-600">Dedicated professionals behind your dream project</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member, i) => (
-              <Card key={i} className="bg-white rounded-2xl shadow-xl overflow-hidden text-center hover:-translate-y-2 transition-all">
-                <img src={member.image} onError={handleImageError} alt={member.name} className="w-full h-64 object-cover" />
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-[#0A1428]">{member.name}</h3>
-                  <p className="text-[#E8B923] text-sm mb-2">{member.role}</p>
-                  <p className="text-gray-500 text-sm">{member.experience} experience</p>
-                  <p className="text-gray-400 text-xs">{member.qualification}</p>
-                </CardContent>
-              </Card>
             ))}
           </div>
         </div>
@@ -958,48 +702,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ========== 16. NEWSLETTER SUBSCRIPTION ========== */}
-      <section className="py-12 bg-[#E8B923]">
-        <div className="container-custom max-w-4xl mx-auto px-6 text-center">
-          <h3 className="text-2xl font-bold text-[#0A1428] mb-2">Subscribe to Our Newsletter</h3>
-          <p className="text-[#0A1428]/70 mb-6">Get latest construction tips, offers, and project updates</p>
-          <form className="flex flex-wrap gap-3 justify-center">
-            <input type="email" placeholder="Enter your email" className="px-6 py-3 rounded-full w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-[#0A1428]" />
-            <Button className="bg-[#0A1428] hover:bg-[#1a2a4a] text-white rounded-full px-8">Subscribe</Button>
-          </form>
-        </div>
-      </section>
-
-      <style>{`
-        @keyframes fade-in-up {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        @keyframes marquee {
-          from {
-            transform: translateX(0);
-          }
-          to {
-            transform: translateX(-50%);
-          }
-        }
-        .animate-fade-in-up {
-          animation: fade-in-up 0.8s ease-out forwards;
-        }
-        .animation-delay-200 {
-          animation-delay: 0.2s;
-        }
-        .animate-marquee {
-          animation: marquee 20s linear infinite;
-        }
-      `}</style>
-    </Layout>
+      </Layout>
   );
 };
 

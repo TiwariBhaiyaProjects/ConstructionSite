@@ -28,8 +28,7 @@ const socialLinks = [
   { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com" },
 ];
 
-const quickLinks = navLinks.slice(0, 5);
-const supportLinks = navLinks.slice(5);
+const quickLinks = navLinks;
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -42,7 +41,7 @@ const Footer = () => {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#E8B923]/5 rounded-full blur-[120px] pointer-events-none -translate-y-1/2 translate-x-1/2" />
       
       <div className="container-custom relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-8 mb-16">
           {/* 1. Brand & About */}
           <div className="space-y-6">
             <Link to="/" className="inline-flex items-center gap-3 group">
@@ -90,7 +89,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* 2. Quick Links */}
           <div className="lg:pl-8">
             <h3 className="text-[#E8B923] font-bold text-base uppercase tracking-wider mb-6">Quick Links</h3>
             <ul className="space-y-3">
@@ -105,36 +103,6 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link to="/contact" className="group flex items-center text-sm transition-colors hover:text-[#E8B923]">
-                  <ChevronRight className="w-4 h-4 mr-2 text-zinc-700 transition-transform group-hover:translate-x-1 group-hover:text-[#E8B923]" />
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* 3. Support & More */}
-          <div>
-            <h3 className="text-[#E8B923] font-bold text-base uppercase tracking-wider mb-6">Support</h3>
-            <ul className="space-y-3">
-              {supportLinks.map((link) => (
-                <li key={link.path}>
-                  <Link
-                    to={link.path}
-                    className="group flex items-center text-sm transition-colors hover:text-[#E8B923]"
-                  >
-                    <ChevronRight className="w-4 h-4 mr-2 text-zinc-700 transition-transform group-hover:translate-x-1 group-hover:text-[#E8B923]" />
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link to="/calculator" className="group flex items-center text-sm transition-colors hover:text-[#E8B923]">
-                  <ChevronRight className="w-4 h-4 mr-2 text-zinc-700 transition-transform group-hover:translate-x-1 group-hover:text-[#E8B923]" />
-                  Cost Calculator
-                </Link>
-              </li>
             </ul>
           </div>
 
