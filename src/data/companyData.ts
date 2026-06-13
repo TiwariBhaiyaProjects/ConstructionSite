@@ -768,15 +768,6 @@ export const machineryList = [
 
 export const machinery = [
   {
-    id: 1,
-    name: "Dumper / Truck",
-    category: "tipper",
-    specs: "Qty: 35",
-    status: "Available",
-    image: "https://images.unsplash.com/photo-1519688586071-72f5bc25e6e5?q=80&w=800",
-    description: "High-capacity dumpers and trucks for bulk material hauling.",
-  },
-  {
     id: 2,
     name: "Excavators",
     category: "excavator",
@@ -821,15 +812,7 @@ export const machinery = [
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
     description: "High-capacity concrete mixing plants for large projects.",
   },
-  {
-    id: 7,
-    name: "Hot Mix Plant 120 TPH",
-    category: "other",
-    specs: "120 TPH (Qty: 1)",
-    status: "Available",
-    image: "https://images.unsplash.com/photo-1535732820275-9c608db911cc?q=80&w=800",
-    description: "Asphalt plant for manufacturing road paving materials.",
-  },
+
   {
     id: 8,
     name: "Transit Mixer / Miller",
