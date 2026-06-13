@@ -46,7 +46,7 @@ const Footer = () => {
           {/* 1. Brand & About */}
           <div className="space-y-6">
             <Link to="/" className="inline-flex items-center gap-3 group">
-              <img src="/images/rc_logo.png" alt="Rajnandini Construction" className="w-12 h-12 object-contain" />
+              <img src="/images/rc_logo.png" alt="Rajnandini Construction" className="w-16 h-16 md:w-20 md:h-20 object-contain drop-shadow-[0_0_15px_rgba(232,185,35,0.4)]" />
               <div>
                 <h2 className="text-xl font-extrabold text-white tracking-tight uppercase leading-none">Rajnandini</h2>
                 <p className="text-[#E8B923] text-xs font-bold tracking-widest uppercase mt-1">Construction</p>

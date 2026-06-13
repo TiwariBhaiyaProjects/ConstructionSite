@@ -173,7 +173,7 @@ const Navbar = () => {
             
             {/* ===== LOGO WITH ANIMATION ===== */}
             <Link to="/" className="flex items-center gap-2 group flex-shrink-0">
-              <img src="/images/rc_logo.png" alt="Rajnandini Construction" className="w-10 h-10 md:w-12 md:h-12 object-contain transition-transform duration-300 group-hover:scale-105" />
+              <img src="/images/rc_logo.png" alt="Rajnandini Construction" className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-[0_0_15px_rgba(232,185,35,0.4)]" />
               <div className="hidden sm:block">
                 <h1 className="font-extrabold text-base md:text-lg text-white tracking-tight uppercase leading-none">
                   Rajnandini
