@@ -356,7 +356,7 @@ export const projects = [
     "timeline": "Completed",
     "progress": 100,
     "description": "De-silting, embankment paving, beautification, and rainwater conservation structure.",
-    "image": "/images/landing-hero.png"
+    "image": "/images/hero-bridge.jpeg"
   },
   {
     "id": 108,

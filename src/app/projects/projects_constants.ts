@@ -288,7 +288,7 @@ export const projects = [
     "budgetRange": "Government Project",
     "progress": 70,
     "description": "Four/Six laning of Aunta-Simaria (Ganga Bridge with approach road) section of NH-31.",
-    "image": "/images/landing-hero.png",
+    "image": "/images/hero-bridge.jpeg",
     "highlights": [
       "Ganga Bridge",
       "348.4 Cr Value",
@@ -456,7 +456,7 @@ export const projects = [
     "budgetRange": "Government Project",
     "progress": 35,
     "description": "Precast box pushing installation method for 6-lane railway underpass without disrupting train traffic.",
-    "image": "/images/landing-hero.png",
+    "image": "/images/hero-bridge.jpeg",
     "highlights": [
       "Precast Pushing",
       "Six Lane RUB",
@@ -557,13 +557,13 @@ export const testimonials = [
 
 export const galleryItems = [
   { title: "Aunta-Simriya Six Lane Project", type: "Project Gallery", image: "/images/site-highway.jpeg" },
-  { title: "Gaya Dobhi Project", type: "Road Work", image: "/images/landing-interior.png" },
+  { title: "Gaya Dobhi Project", type: "Road Work", image: "/images/modi-bridge-walk.jpeg" },
   { title: "Tata Hitachi Excavator", type: "Machinery", image: "/images/modi-bridge-walk.jpeg" },
   { title: "PHED Khagaria Water Supply", type: "Public Utility", image: "/images/ribbon-cutting.jpeg" },
   { title: "PHED Patna (Mokama) Water Supply", type: "Public Utility", image: "/images/hero-bridge.jpeg" },
   { title: "Salehpur Tundaspur Erosion Protection", type: "Civil Work", image: "/images/night-highway.jpeg" },
-  { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/images/landing-commercial.png" },
-  { title: "Macons Concrete Plant", type: "Plant", image: "/images/landing-planning.png" },
+  { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/images/site-highway.jpeg" },
+  { title: "Macons Concrete Plant", type: "Plant", image: "/images/aerial-roundabout.jpeg" },
   { title: "Minor Irrigation Division Gaya", type: "Performance Certificate", image: "/images/modi-bridge-walk.jpeg" },
   { title: "Irrigation Division Pakur", type: "Performance Certificate", image: "/images/ribbon-cutting.jpeg" }
 ];
@@ -747,7 +747,7 @@ export const machinery = [
   { id: 1, name: "Dumper / Truck", category: "transport", specs: "Qty: 35", status: "Available", image: "/images/hero-bridge.jpeg", description: "Heavy-duty dumpers and trucks for material transport." },
   { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/images/Excavators (Heavy-Duty).png", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
   { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/images/Transit_Mixer_Miller.png", description: "Transit mixers for transporting ready-mix concrete to sites." },
-  { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/images/landing-site.png", description: "High-capacity concrete mixing plants for large infrastructure projects." },
+  { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/images/night-highway.jpeg", description: "High-capacity concrete mixing plants for large infrastructure projects." },
   { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/images/Backhoe_Loader.png", description: "Versatile backhoe loaders for excavation and loading operations." },
   { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/images/Motor_Grader.png", description: "Motor graders for road leveling and grading operations." },
   { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/images/Hydra_Crane.png", description: "Mobile hydra cranes for material handling and lifting." },

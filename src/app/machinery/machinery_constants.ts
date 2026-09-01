@@ -268,7 +268,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 45,
     description: "Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500 of NH-227A.",
-    image: "/images/landing-commercial.png",
+    image: "/images/site-highway.jpeg",
     highlights: ["MORTH", "719 Cr Value", "Four Lane Highway"],
   },
   {
@@ -285,7 +285,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 70,
     description: "Four/Six laning of Aunta-Simaria (Ganga Bridge with approach road) section of NH-31.",
-    image: "/images/landing-hero.png",
+    image: "/images/hero-bridge.jpeg",
     highlights: ["Ganga Bridge", "348.4 Cr Value", "NH-31"],
   },
   {
@@ -450,13 +450,13 @@ export const testimonials = [
 
 export const galleryItems = [
   { title: "Aunta-Simriya Six Lane Project", type: "Project Gallery", image: "/images/site-highway.jpeg" },
-  { title: "Gaya Dobhi Project", type: "Road Work", image: "/images/landing-interior.png" },
+  { title: "Gaya Dobhi Project", type: "Road Work", image: "/images/modi-bridge-walk.jpeg" },
   { title: "Tata Hitachi Excavator", type: "Machinery", image: "/images/modi-bridge-walk.jpeg" },
   { title: "PHED Khagaria Water Supply", type: "Public Utility", image: "/images/ribbon-cutting.jpeg" },
   { title: "PHED Patna (Mokama) Water Supply", type: "Public Utility", image: "/images/hero-bridge.jpeg" },
   { title: "Salehpur Tundaspur Erosion Protection", type: "Civil Work", image: "/images/night-highway.jpeg" },
   { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/images/site-highway.jpeg" },
-  { title: "Macons Concrete Plant", type: "Plant", image: "/images/landing-planning.png" },
+  { title: "Macons Concrete Plant", type: "Plant", image: "/images/aerial-roundabout.jpeg" },
   { title: "Minor Irrigation Division Gaya", type: "Performance Certificate", image: "/images/modi-bridge-walk.jpeg" },
   { title: "Irrigation Division Pakur", type: "Performance Certificate", image: "/images/ribbon-cutting.jpeg" }
 ];

@@ -281,7 +281,7 @@ export const projects = [
     "budgetRange": "Government Project",
     "progress": 70,
     "description": "Four/Six laning of Aunta-Simaria (Ganga Bridge with approach road) section of NH-31.",
-    "image": "/images/landing-hero.png",
+    "image": "/images/hero-bridge.jpeg",
     "highlights": [
       "Ganga Bridge",
       "348.4 Cr Value",
@@ -449,7 +449,7 @@ export const projects = [
     "budgetRange": "Government Project",
     "progress": 35,
     "description": "Precast box pushing installation method for 6-lane railway underpass without disrupting train traffic.",
-    "image": "/images/landing-hero.png",
+    "image": "/images/hero-bridge.jpeg",
     "highlights": [
       "Precast Pushing",
       "Six Lane RUB",
