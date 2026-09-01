@@ -24,7 +24,7 @@ export default function HomePortfolio() {
 
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {["All", "Residential", "Commercial", "Township"].map((filter) => (
+          {["All", "Highways & Roads", "Water Supply & Irrigation", "Bridges & Civil Infra"].map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}

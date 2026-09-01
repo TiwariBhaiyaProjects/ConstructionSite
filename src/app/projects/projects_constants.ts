@@ -1,8 +1,8 @@
 export const projectsCategories = [
   { id: "all", label: "All Projects" },
-  { id: "Residential", label: "Residential" },
-  { id: "Commercial", label: "Commercial" },
-  { id: "Township", label: "Township" },
+  { id: "Highways & Roads", label: "Highways & Roads" },
+  { id: "Water Supply & Irrigation", label: "Water Supply & Irrigation" },
+  { id: "Bridges & Civil Infra", label: "Bridges & Civil Infra" },
 ];
 
 // Company information
@@ -256,7 +256,7 @@ export const projects = [
   {
     id: 1,
     title: "Improvement and Up-gradation to Four Lane of NH-227A",
-    category: "infrastructure",
+    category: "Highways & Roads",
     value: "Rs. 719 Cr",
     location: "Mehrauna Ghat to Siwan (Bihar)",
     status: "Ongoing",
@@ -273,7 +273,7 @@ export const projects = [
   {
     id: 2,
     title: "New Construction of Four/Six Lane Road Project",
-    category: "infrastructure",
+    category: "Highways & Roads",
     value: "Rs. 348.4 Cr",
     location: "Aunta-Simariya",
     status: "Ongoing",
@@ -290,7 +290,7 @@ export const projects = [
   {
     id: 3,
     title: "PHED Khagaria (Bihar) Water Supply",
-    category: "infrastructure",
+    category: "Water Supply & Irrigation",
     value: "Rs. 120 Cr",
     location: "Khagaria, Bihar",
     status: "Completed",
@@ -307,7 +307,7 @@ export const projects = [
   {
     id: 4,
     title: "Construction of Four Lane Purnia-Saharsa Road Project",
-    category: "infrastructure",
+    category: "Highways & Roads",
     value: "Rs. 120 Cr",
     location: "Purnia-Saharsa",
     status: "Completed",
@@ -324,7 +324,7 @@ export const projects = [
   {
     id: 5,
     title: "Construction of Sub Divisional Control Room SKMCH",
-    category: "commercial",
+    category: "Bridges & Civil Infra",
     value: "Rs. 25 Cr",
     location: "Muzaffarpur",
     status: "Completed",
@@ -341,7 +341,7 @@ export const projects = [
   {
     id: 6,
     title: "Erosion protection Work from Salehpur Tundaspur",
-    category: "infrastructure",
+    category: "Water Supply & Irrigation",
     value: "Rs. 18.5 Cr",
     location: "Gopalganj",
     status: "Completed",
