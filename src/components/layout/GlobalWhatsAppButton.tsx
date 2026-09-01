@@ -1,12 +1,5 @@
-// RESPONSIBILITY: Renders the floating WhatsApp action button with a quick-contact form modal.
+// RESPONSIBILITY: Renders the floating WhatsApp action button. Directly launches WhatsApp chat with pre-filled message.
 "use client";
-
-import { useState } from "react";
-import { X, Send } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { companyInfo } from "@/components/layout/layout_constants";
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -15,112 +8,22 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 );
 
 const GlobalWhatsAppButton = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    message: "Hi, I'm interested in your construction services. Please provide more details."
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const message = `Hello! I'm ${formData.name}.\nPhone: ${formData.phone}\n\nMessage: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-    setIsOpen(false);
-    setFormData({ name: "", phone: "", message: "Hi, I'm interested in your construction services. Please provide more details." });
-  };
-
-  const quickMessage = () => {
-    const message = "Hi! I'm interested in your construction services. Please provide more details about your projects and pricing.";
-    const whatsappUrl = `https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-  };
+  const message = "Hello Rajnandini Construction! I am interested in getting details about your construction services and estimates.";
+  const whatsappUrl = `https://wa.me/919122443841?text=${encodeURIComponent(message)}`;
 
   return (
-    <>
-      {/* WhatsApp Floating Button */}
-      <div className="fixed bottom-4 left-4 md:bottom-6 md:left-6 z-50">
-        <Button
-          onClick={() => setIsOpen(true)}
-          className="bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white rounded-full w-12 h-12 md:w-14 md:h-14 shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] transition-all duration-300 hover:scale-110 p-0"
-          size="icon"
-          aria-label="Chat on WhatsApp"
-        >
-          <WhatsAppIcon className="w-6 h-6 md:w-7 md:h-7" />
-        </Button>
-      </div>
-
-      {/* WhatsApp Modal */}
-      {isOpen && (
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full max-h-[90vh] overflow-hidden">
-            {/* Header */}
-            <div className="bg-brand-whatsapp-light text-white p-4 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <WhatsAppIcon className="w-6 h-6" />
-                <div>
-                  <h3 className="font-semibold">WhatsApp Chat</h3>
-                  <p className="text-sm opacity-90">Rajnandini Construction</p>
-                </div>
-              </div>
-              <Button
-                onClick={() => setIsOpen(false)}
-                variant="ghost"
-                size="icon"
-                className="text-white hover:bg-white/20"
-                aria-label="Close WhatsApp chat"
-              >
-                <X className="w-5 h-5" />
-              </Button>
-            </div>
-
-            {/* Content */}
-            <div className="p-6">
-              <div className="mb-6">
-                <p className="text-gray-600 mb-4">
-                  Get instant support! Send us a message on WhatsApp.
-                </p>
-                <Button
-                  onClick={quickMessage}
-                  className="w-full bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white mb-4"
-                >
-                  <WhatsAppIcon className="w-4 h-4 mr-2" />
-                  Quick Message
-                </Button>
-                <div className="text-center text-gray-500 text-sm mb-4">or fill the form below</div>
-              </div>
-
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <Input
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  required
-                />
-                <Input
-                  placeholder="Your Phone Number"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  required
-                />
-                <Textarea
-                  placeholder="Your Message"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  rows={4}
-                  required
-                />
-                <Button type="submit" className="w-full bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white">
-                  <Send className="w-4 h-4 mr-2" />
-                  Send WhatsApp Message
-                </Button>
-              </form>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
+    <div className="fixed bottom-4 left-4 md:bottom-6 md:left-6 z-50">
+      <a
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat directly on WhatsApp"
+        title="Chat directly on WhatsApp"
+        className="bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white rounded-full w-12 h-12 md:w-14 md:h-14 shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] transition-all duration-300 hover:scale-110 flex items-center justify-center"
+      >
+        <WhatsAppIcon className="w-6 h-6 md:w-7 md:h-7" />
+      </a>
+    </div>
   );
 };
 

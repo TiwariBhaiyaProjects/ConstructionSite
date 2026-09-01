@@ -58,7 +58,7 @@ export default function HomeHeroSection() {
 
             <div className="flex flex-wrap gap-4 mb-10">
               <Button size="lg" className="bg-brand-primary hover:bg-brand-primary-hover text-brand-dark px-8 py-7 text-lg font-bold rounded-full transition-all duration-300 hover:scale-105 shadow-[0_8px_30px_rgba(232,185,35,0.4)]" asChild>
-                <Link href="/about#contact"><Calculator className="mr-2 w-5 h-5" /> Free Estimate</Link>
+                <a href="#hero-estimate"><Calculator className="mr-2 w-5 h-5" /> Free Estimate</a>
               </Button>
               <Button size="lg" variant="outline" className="border-2 border-white/50 !bg-white/10 backdrop-blur-md !text-white hover:!bg-white hover:!text-brand-dark px-8 py-7 text-lg font-semibold rounded-full transition-all duration-300 shadow-lg" asChild>
                 <a href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle className="mr-2 w-5 h-5" /> WhatsApp</a>
@@ -70,6 +70,7 @@ export default function HomeHeroSection() {
 
           {/* Hero Form Card - Glassmorphism */}
           <motion.div 
+            id="hero-estimate"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
