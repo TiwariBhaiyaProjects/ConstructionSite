@@ -324,7 +324,7 @@ export default function GlobalNavbar() {
         {/* ===== MOBILE MENU - SLIDE DOWN PREMIUM DESIGN ===== */}
         <div
           className={`xl:hidden bg-gradient-to-b from-zinc-950 to-zinc-900 border-t border-brand-primary/20 overflow-hidden transition-all duration-500 ${
-            isOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
+            isOpen ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="w-full px-4 lg:px-10 py-6 space-y-2">

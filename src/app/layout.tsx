@@ -21,6 +21,7 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rajnandiniconstruction.com"),
   title: "Rajnandini Construction - Trusted Construction Partner",
   description:
     "Rajnandini Construction provides residential construction, commercial construction, G+1/G+2 buildings, renovation, interiors, civil work, planning and free estimates across Bihar and Jharkhand.",
