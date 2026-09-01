@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Clock, Truck, ArrowRight } from "lucide-react";
-import { processSteps, materials } from "../home_constants";
+import { processSteps, materials } from "./home_constants";
 
 export default function HomeProcessMaterials() {
   return (
@@ -27,7 +27,7 @@ export default function HomeProcessMaterials() {
                   <div>
                     <h4 className="text-xl font-bold mb-1">{step.title}</h4>
                     <p className="text-white/60 text-sm mb-1">{step.description}</p>
-                    <span className="text-brand-primary text-xs">{step.duration}</span>
+
                   </div>
                 </div>
               ))}
@@ -45,9 +45,8 @@ export default function HomeProcessMaterials() {
                       <h4 className="text-lg font-bold">{m.category}</h4>
                       <p className="text-brand-primary text-sm mt-1">{m.brands}</p>
                     </div>
-                    <div className="text-right">
-                      <span className="text-xs text-white/50">{m.quality}</span>
-                      <p className="text-sm text-white/70">{m.warranty} warranty</p>
+                    <div className="text-right max-w-xs">
+                      <p className="text-sm text-white/70">{m.note}</p>
                     </div>
                   </div>
                 </div>

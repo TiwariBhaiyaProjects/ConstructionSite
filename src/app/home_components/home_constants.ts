@@ -797,3 +797,23 @@ export const contractorLicenses = [
     panNumber: "CXHPK1182P"
   }
 ];
+
+
+export const landingImages = {
+  hero: "https://images.unsplash.com/photo-1541888081622-15082df82bc7?q=80&w=2070&auto=format&fit=crop"
+};
+
+export const marqueeTexts = [
+  "RAJNANDINI CONSTRUCTION",
+  "BUILDING THE FUTURE",
+  "TRUSTED SINCE 2013",
+  "ISO 9001:2015 CERTIFIED",
+  "ROADS, BRIDGES & HIGHWAYS",
+  "BIHAR & JHARKHAND"
+];
+
+export const awards = [
+  { name: "ISO 9001:2015", organization: "Quality Management System", year: "2024", icon: "shield" },
+  { name: "Class-1 Contractor", organization: "RCD Bihar", year: "2023", icon: "award" },
+  { name: "Excellence in Safety", organization: "Infrastructure Awards", year: "2022", icon: "trophy" }
+];

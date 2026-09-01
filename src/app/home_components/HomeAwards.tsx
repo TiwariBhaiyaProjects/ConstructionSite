@@ -1,5 +1,5 @@
 import { Award, ShieldCheck, Award as Trophy } from "lucide-react";
-import { awards } from "../home_constants";
+import { awards } from "./home_constants";
 
 export default function HomeAwards() {
   const getIcon = (iconName: string) => {

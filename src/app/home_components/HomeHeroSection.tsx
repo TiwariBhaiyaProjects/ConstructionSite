@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import HomeEstimateForm from "./HomeEstimateForm";
 import { motion } from "framer-motion";
 import { companyInfo } from "./home_constants";
-import { landingImages } from "../home_constants";
+import { landingImages } from "./home_constants";
 import Image from "next/image";
 
 export default function HomeHeroSection() {
@@ -64,27 +64,7 @@ export default function HomeHeroSection() {
               </Button>
             </div>
 
-            {/* Trust Badges */}
-            <div className="flex flex-wrap gap-6 items-center">
-              <div className="flex -space-x-3">
-                {[1, 2, 3, 4].map((i) => (
-                  <Image 
-                    key={i} 
-                    src={landingImages.avatar} 
-                    alt={`Client ${i}`} 
-                    width={40} 
-                    height={40}
-                    className="w-10 h-10 rounded-full border-2 border-brand-dark shadow-lg object-cover" 
-                  />
-                ))}
-              </div>
-              <div className="flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-md rounded-full border border-white/10">
-                <div className="flex">
-                  {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-[#E8B923] text-brand-primary" />)}
-                </div>
-                <span className="text-white font-medium text-sm">500+ Google Reviews</span>
-              </div>
-            </div>
+
           </motion.div>
 
           {/* Hero Form Card - Glassmorphism */}

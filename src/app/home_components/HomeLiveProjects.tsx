@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { liveProjects } from "../home_constants";
+import { liveProjects } from "./home_constants";
 
 export default function HomeLiveProjects() {
   return (

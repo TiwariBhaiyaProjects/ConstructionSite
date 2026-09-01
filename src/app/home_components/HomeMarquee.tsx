@@ -1,6 +1,6 @@
 "use client";
 
-import { marqueeTexts } from "../home_constants";
+import { marqueeTexts } from "./home_constants";
 
 export default function HomeMarquee() {
   return (
