@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic toggle UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as TogglePrimitive from "@radix-ui/react-toggle";
 import { cva, type VariantProps } from "class-variance-authority";

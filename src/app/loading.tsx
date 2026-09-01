@@ -8,7 +8,7 @@ export default function Loading() {
       {/* Stats Row Skeleton */}
       <div className="container-custom py-12 grid grid-cols-2 md:grid-cols-4 gap-6">
         {[...Array(4)].map((_, i) => (
-          <div key={i} className="h-24 rounded-2xl bg-muted/60" />
+          <div key={`sk-0-${i}`} className="h-24 rounded-2xl bg-muted/60" />
         ))}
       </div>
 
@@ -20,7 +20,7 @@ export default function Loading() {
         {/* Cards Grid Skeleton */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[...Array(3)].map((_, i) => (
-            <div key={i} className="rounded-2xl overflow-hidden border border-border/40">
+            <div key={`sk-1-${i}`} className="rounded-2xl overflow-hidden border border-border/40">
               <div className="h-52 bg-muted/70" />
               <div className="p-6 space-y-3">
                 <div className="h-5 w-3/4 bg-muted/60 rounded" />

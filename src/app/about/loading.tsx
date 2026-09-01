@@ -15,7 +15,7 @@ export default function AboutLoading() {
       </div>
       <div className="container-custom pb-16 grid md:grid-cols-3 gap-6">
         {[...Array(3)].map((_, i) => (
-          <div key={i} className="h-40 bg-muted/60 rounded-2xl" />
+          <div key={`sk-0-${i}`} className="h-40 bg-muted/60 rounded-2xl" />
         ))}
       </div>
     </div>

@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic toaster UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import { useToast } from "@/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/components/ui/toast";
 

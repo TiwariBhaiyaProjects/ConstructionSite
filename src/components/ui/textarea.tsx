@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic textarea UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 
 import { cn } from "@/lib/utils";

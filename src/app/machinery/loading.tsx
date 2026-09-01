@@ -9,7 +9,7 @@ export default function MachineryLoading() {
         {/* Featured cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {[...Array(4)].map((_, i) => (
-            <div key={i} className="rounded-2xl overflow-hidden border border-border/40">
+            <div key={`sk-0-${i}`} className="rounded-2xl overflow-hidden border border-border/40">
               <div className="aspect-[4/3] bg-muted/70" />
               <div className="p-4 space-y-2">
                 <div className="h-4 w-3/4 bg-muted/60 rounded" />
@@ -22,7 +22,7 @@ export default function MachineryLoading() {
         <div className="rounded-2xl border border-border/40 overflow-hidden">
           <div className="h-14 bg-muted/50 border-b border-border/40" />
           {[...Array(8)].map((_, i) => (
-            <div key={i} className="h-12 border-b border-border/20 px-6 flex items-center gap-6">
+            <div key={`sk-1-${i}`} className="h-12 border-b border-border/20 px-6 flex items-center gap-6">
               <div className="h-3 w-8 bg-muted/40 rounded" />
               <div className="h-3 w-32 bg-muted/40 rounded" />
               <div className="h-3 flex-1 bg-muted/40 rounded" />

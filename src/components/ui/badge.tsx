@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic badge UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 

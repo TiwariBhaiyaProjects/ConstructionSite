@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic sheet UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cva, type VariantProps } from "class-variance-authority";
 import { X } from "lucide-react";

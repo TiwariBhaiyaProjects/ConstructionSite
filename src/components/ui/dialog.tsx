@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic dialog UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { X } from "lucide-react";

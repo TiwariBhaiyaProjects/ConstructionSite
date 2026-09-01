@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Server Component. Assembles and renders all Home page section components in order.
 import HomeHeroSection from "@/app/home_components/HomeHeroSection";
 import HomeMarquee from "@/app/home_components/HomeMarquee";
 import HomeStats from "@/app/home_components/HomeStats";

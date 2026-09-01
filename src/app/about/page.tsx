@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Server Component. Assembles and renders all About page section components in order.
 import AboutHero from "@/app/about/about_components/AboutHero";
 import AboutStory from "@/app/about/about_components/AboutStory";
 import AboutMission from "@/app/about/about_components/AboutMission";

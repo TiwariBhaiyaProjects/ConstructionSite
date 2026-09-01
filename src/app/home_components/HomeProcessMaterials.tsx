@@ -40,7 +40,7 @@ export default function HomeProcessMaterials() {
             <h3 className="text-3xl font-bold mb-8 flex items-center gap-2"><Truck className="w-7 h-7 text-brand-primary" /> Premium Materials</h3>
             <div className="grid gap-4">
               {materials.slice(0, 6).map((m, i) => (
-                <div key={i} className="border border-white/20 rounded-xl p-5 hover:border-brand-primary transition-all hover:bg-white/5">
+                <div key={m.category} className="border border-white/20 rounded-xl p-5 hover:border-brand-primary transition-all hover:bg-white/5">
                   <div className="flex justify-between items-start">
                     <div>
                       <h4 className="text-lg font-bold">{m.category}</h4>

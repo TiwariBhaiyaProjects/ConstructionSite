@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic select UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import { Check, ChevronDown, ChevronUp } from "lucide-react";

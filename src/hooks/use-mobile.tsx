@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared global hook. Returns true if viewport is mobile-width (<768px). No side effects.
 import * as React from "react";
 
 const MOBILE_BREAKPOINT = 768;

@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic tooltip UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 

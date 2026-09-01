@@ -116,7 +116,7 @@ export default function MachineryList() {
                 <div className="flex items-center gap-1">
                   {[...Array(totalPages)].map((_, i) => (
                     <button
-                      key={i}
+                      key={`page-btn-${i + 1}`}
                       onClick={() => setCurrentPage(i + 1)}
                       className={`w-8 h-8 rounded-lg text-sm font-medium transition-all ${
                         currentPage === i + 1

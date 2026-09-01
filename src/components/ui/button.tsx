@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic button UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";

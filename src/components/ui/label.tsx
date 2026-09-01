@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic label UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as LabelPrimitive from "@radix-ui/react-label";
 import { cva, type VariantProps } from "class-variance-authority";

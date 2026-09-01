@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic tabs UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import * as React from "react";
 import * as TabsPrimitive from "@radix-ui/react-tabs";
 

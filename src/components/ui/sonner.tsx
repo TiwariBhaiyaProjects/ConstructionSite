@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Shared zero-business-logic sonner UI primitive from shadcn/ui. No API calls. No module-specific logic.
 import { useTheme } from "next-themes";
 import { Toaster as Sonner, toast } from "sonner";
 
