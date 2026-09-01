@@ -630,12 +630,12 @@ export const machineryList = [
 
 export const machinery = [
   { id: 1, name: "Dumper / Truck", category: "transport", specs: "Qty: 35", status: "Available", image: "/icon.png", description: "Heavy-duty dumpers and trucks for material transport." },
-  { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/icon.png", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
-  { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/icon.png", description: "Transit mixers for transporting ready-mix concrete to sites." },
+  { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/images/Excavators (Heavy-Duty).png", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
+  { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/images/Transit_Mixer_Miller.png", description: "Transit mixers for transporting ready-mix concrete to sites." },
   { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/icon.png", description: "High-capacity concrete mixing plants for large infrastructure projects." },
-  { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/icon.png", description: "Versatile backhoe loaders for excavation and loading operations." },
-  { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/icon.png", description: "Motor graders for road leveling and grading operations." },
-  { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/icon.png", description: "Mobile hydra cranes for material handling and lifting." },
+  { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/images/Backhoe_Loader.png", description: "Versatile backhoe loaders for excavation and loading operations." },
+  { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/images/Motor_Grader.png", description: "Motor graders for road leveling and grading operations." },
+  { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/images/Hydra_Crane.png", description: "Mobile hydra cranes for material handling and lifting." },
   { id: 8, name: "Steel Cutting & Bending Machine", category: "tools", specs: "Qty: 12", status: "Available", image: "/icon.png", description: "Heavy-duty machines for reinforcement preparation." }
 ];
 
