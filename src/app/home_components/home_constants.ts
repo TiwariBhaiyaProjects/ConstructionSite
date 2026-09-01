@@ -800,7 +800,7 @@ export const contractorLicenses = [
 
 
 export const landingImages = {
-  hero: "https://images.unsplash.com/photo-1541888081622-15082df82bc7?q=80&w=2070&auto=format&fit=crop"
+  hero: "/images/hero-bridge.jpeg"
 };
 
 export const marqueeTexts = [

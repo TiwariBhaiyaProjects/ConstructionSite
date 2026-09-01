@@ -51,8 +51,8 @@ export const services = [
     category: "Infrastructure",
     features: ["Greenfield projects", "Highway widening", "Paved shoulders", "Bitumen and concrete roads", "Precast installation", "Safety planning"],
     stats: [{ value: "719Cr", label: "Max Value" }, { value: "NHAI", label: "Client" }, { value: "Turnkey", label: "Delivery" }],
-    image: "/icon.png",
-    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+    image: "/images/hero-bridge.jpeg",
+    gallery: ["/images/night-highway.jpeg", "/images/site-highway.jpeg", "/images/aerial-roundabout.jpeg"]
   },
   {
     id: "bridges-structures",
@@ -62,8 +62,8 @@ export const services = [
     category: "Infrastructure",
     features: ["Major river bridges", "Railway Over Bridges (ROB)", "Road Under Bridges (RUB)", "Viaduct construction", "Precast pushing installation", "Heavy structural engineering"],
     stats: [{ value: "76m", label: "Span Length" }, { value: "Major", label: "Structures" }, { value: "Expert", label: "Execution" }],
-    image: "/icon.png",
-    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+    image: "/images/modi-bridge-walk.jpeg",
+    gallery: ["/images/ribbon-cutting.jpeg", "/images/hero-bridge.jpeg", "/images/night-highway.jpeg"]
   },
   {
     id: "water-supply",
@@ -73,8 +73,8 @@ export const services = [
     category: "Civil Work",
     features: ["Elevated water tanks", "Pipeline distribution networks", "Water treatment plants", "Pump house construction", "Rural water supply", "Urban water supply"],
     stats: [{ value: "120Cr", label: "Project Value" }, { value: "PHED", label: "Client" }, { value: "Tested", label: "Quality" }],
-    image: "/icon.png",
-    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+    image: "/images/site-highway.jpeg",
+    gallery: ["/images/aerial-roundabout.jpeg", "/images/modi-bridge-walk.jpeg", "/images/ribbon-cutting.jpeg"]
   },
   {
     id: "irrigation-canal",
@@ -84,8 +84,8 @@ export const services = [
     category: "Civil Work",
     features: ["Erosion protection", "Canal excavation and lining", "Pond renovation", "Embankment strengthening", "Water resource management", "Flood protection works"],
     stats: [{ value: "18.5Cr", label: "Protection" }, { value: "Govt", label: "Client" }, { value: "Proven", label: "Record" }],
-    image: "/icon.png",
-    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+    image: "/images/hero-bridge.jpeg",
+    gallery: ["/images/night-highway.jpeg", "/images/site-highway.jpeg", "/images/aerial-roundabout.jpeg"]
   },
   {
     id: "building-construction",
@@ -95,8 +95,8 @@ export const services = [
     category: "Commercial",
     features: ["Sub-divisional control rooms", "Executive offices", "Institutional buildings", "Complete structural work", "MEP execution", "Finishing and handover"],
     stats: [{ value: "25Cr", label: "Building" }, { value: "Turnkey", label: "Delivery" }, { value: "On Time", label: "Completion" }],
-    image: "/icon.png",
-    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+    image: "/images/modi-bridge-walk.jpeg",
+    gallery: ["/images/ribbon-cutting.jpeg", "/images/hero-bridge.jpeg", "/images/night-highway.jpeg"]
   }
 ];
 
@@ -268,7 +268,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 45,
     description: "Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500 of NH-227A.",
-    image: "/icon.png",
+    image: "/images/site-highway.jpeg",
     highlights: ["MORTH", "719 Cr Value", "Four Lane Highway"],
   },
   {
@@ -285,7 +285,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 70,
     description: "Four/Six laning of Aunta-Simaria (Ganga Bridge with approach road) section of NH-31.",
-    image: "/icon.png",
+    image: "/images/aerial-roundabout.jpeg",
     highlights: ["Ganga Bridge", "348.4 Cr Value", "NH-31"],
   },
   {
@@ -302,7 +302,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 100,
     description: "Rural and Urban water supply project.",
-    image: "/icon.png",
+    image: "/images/modi-bridge-walk.jpeg",
     highlights: ["PHED", "Water Supply", "120 Cr"],
   },
   {
@@ -319,7 +319,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 100,
     description: "Major highway widening and paving project.",
-    image: "/icon.png",
+    image: "/images/ribbon-cutting.jpeg",
     highlights: ["Completed", "120 Cr Value", "Four Lane"],
   },
   {
@@ -336,7 +336,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 100,
     description: "Construction of Sub Divisional Control Room SKMCH.",
-    image: "/icon.png",
+    image: "/images/hero-bridge.jpeg",
     highlights: ["Completed", "25 Cr Value", "SKMCH"],
   },
   {
@@ -353,7 +353,7 @@ export const projects = [
     budgetRange: "Government Project",
     progress: 100,
     description: "Erosion protection Work from Salehpur Tundaspurchharki Km. 0.0 to Km. 5.0.",
-    image: "/icon.png",
+    image: "/images/night-highway.jpeg",
     highlights: ["Completed", "Erosion Protection", "18.5 Cr"],
   }
 ];
@@ -449,16 +449,16 @@ export const testimonials = [
 ];
 
 export const galleryItems = [
-  { title: "Aunta-Simriya Six Lane Project", type: "Project Gallery", image: "/icon.png" },
-  { title: "Gaya Dobhi Project", type: "Road Work", image: "/icon.png" },
-  { title: "Tata Hitachi Excavator", type: "Machinery", image: "/icon.png" },
-  { title: "PHED Khagaria Water Supply", type: "Public Utility", image: "/icon.png" },
-  { title: "PHED Patna (Mokama) Water Supply", type: "Public Utility", image: "/icon.png" },
-  { title: "Salehpur Tundaspur Erosion Protection", type: "Civil Work", image: "/icon.png" },
-  { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/icon.png" },
-  { title: "Macons Concrete Plant", type: "Plant", image: "/icon.png" },
-  { title: "Minor Irrigation Division Gaya", type: "Performance Certificate", image: "/icon.png" },
-  { title: "Irrigation Division Pakur", type: "Performance Certificate", image: "/icon.png" }
+  { title: "Aunta-Simriya Six Lane Project", type: "Project Gallery", image: "/images/site-highway.jpeg" },
+  { title: "Gaya Dobhi Project", type: "Road Work", image: "/images/aerial-roundabout.jpeg" },
+  { title: "Tata Hitachi Excavator", type: "Machinery", image: "/images/modi-bridge-walk.jpeg" },
+  { title: "PHED Khagaria Water Supply", type: "Public Utility", image: "/images/ribbon-cutting.jpeg" },
+  { title: "PHED Patna (Mokama) Water Supply", type: "Public Utility", image: "/images/hero-bridge.jpeg" },
+  { title: "Salehpur Tundaspur Erosion Protection", type: "Civil Work", image: "/images/night-highway.jpeg" },
+  { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/images/site-highway.jpeg" },
+  { title: "Macons Concrete Plant", type: "Plant", image: "/images/aerial-roundabout.jpeg" },
+  { title: "Minor Irrigation Division Gaya", type: "Performance Certificate", image: "/images/modi-bridge-walk.jpeg" },
+  { title: "Irrigation Division Pakur", type: "Performance Certificate", image: "/images/ribbon-cutting.jpeg" }
 ];
 
 export const designCatalog = [
@@ -637,14 +637,14 @@ export const machineryList = [
 ];
 
 export const machinery = [
-  { id: 1, name: "Dumper / Truck", category: "transport", specs: "Qty: 35", status: "Available", image: "/icon.png", description: "Heavy-duty dumpers and trucks for material transport." },
-  { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/icon.png", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
-  { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/icon.png", description: "Transit mixers for transporting ready-mix concrete to sites." },
-  { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/icon.png", description: "High-capacity concrete mixing plants for large infrastructure projects." },
-  { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/icon.png", description: "Versatile backhoe loaders for excavation and loading operations." },
-  { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/icon.png", description: "Motor graders for road leveling and grading operations." },
-  { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/icon.png", description: "Mobile hydra cranes for material handling and lifting." },
-  { id: 8, name: "Steel Cutting & Bending Machine", category: "tools", specs: "Qty: 12", status: "Available", image: "/icon.png", description: "Heavy-duty machines for reinforcement preparation." }
+  { id: 1, name: "Dumper / Truck", category: "transport", specs: "Qty: 35", status: "Available", image: "/images/hero-bridge.jpeg", description: "Heavy-duty dumpers and trucks for material transport." },
+  { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/images/night-highway.jpeg", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
+  { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/images/site-highway.jpeg", description: "Transit mixers for transporting ready-mix concrete to sites." },
+  { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/images/aerial-roundabout.jpeg", description: "High-capacity concrete mixing plants for large infrastructure projects." },
+  { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/images/modi-bridge-walk.jpeg", description: "Versatile backhoe loaders for excavation and loading operations." },
+  { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/images/ribbon-cutting.jpeg", description: "Motor graders for road leveling and grading operations." },
+  { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/images/hero-bridge.jpeg", description: "Mobile hydra cranes for material handling and lifting." },
+  { id: 8, name: "Steel Cutting & Bending Machine", category: "tools", specs: "Qty: 12", status: "Available", image: "/images/night-highway.jpeg", description: "Heavy-duty machines for reinforcement preparation." }
 ];
 
 export const financialTurnover = [
