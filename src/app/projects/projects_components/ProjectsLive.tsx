@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the currently active live projects section.
 
 import { motion } from "framer-motion";
 import { ArrowRight, Building2, MapPin } from "lucide-react";

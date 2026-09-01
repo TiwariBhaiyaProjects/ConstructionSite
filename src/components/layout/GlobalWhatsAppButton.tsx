@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the floating WhatsApp action button with a quick-contact form modal.
 "use client";
 
 import { useState } from "react";
@@ -42,8 +43,9 @@ const GlobalWhatsAppButton = () => {
       <div className="fixed bottom-4 left-4 md:bottom-6 md:left-6 z-50">
         <Button
           onClick={() => setIsOpen(true)}
-          className="bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full w-12 h-12 md:w-14 md:h-14 shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] transition-all duration-300 hover:scale-110 p-0"
+          className="bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white rounded-full w-12 h-12 md:w-14 md:h-14 shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] transition-all duration-300 hover:scale-110 p-0"
           size="icon"
+          aria-label="Chat on WhatsApp"
         >
           <WhatsAppIcon className="w-6 h-6 md:w-7 md:h-7" />
         </Button>
@@ -54,7 +56,7 @@ const GlobalWhatsAppButton = () => {
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full max-h-[90vh] overflow-hidden">
             {/* Header */}
-            <div className="bg-green-500 text-white p-4 flex items-center justify-between">
+            <div className="bg-brand-whatsapp-light text-white p-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <WhatsAppIcon className="w-6 h-6" />
                 <div>
@@ -67,6 +69,7 @@ const GlobalWhatsAppButton = () => {
                 variant="ghost"
                 size="icon"
                 className="text-white hover:bg-white/20"
+                aria-label="Close WhatsApp chat"
               >
                 <X className="w-5 h-5" />
               </Button>
@@ -80,7 +83,7 @@ const GlobalWhatsAppButton = () => {
                 </p>
                 <Button
                   onClick={quickMessage}
-                  className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white mb-4"
+                  className="w-full bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white mb-4"
                 >
                   <WhatsAppIcon className="w-4 h-4 mr-2" />
                   Quick Message
@@ -108,7 +111,7 @@ const GlobalWhatsAppButton = () => {
                   rows={4}
                   required
                 />
-                <Button type="submit" className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white">
+                <Button type="submit" className="w-full bg-brand-whatsapp-light hover:bg-brand-whatsapp text-white">
                   <Send className="w-4 h-4 mr-2" />
                   Send WhatsApp Message
                 </Button>

@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the tabbed and paginated complete equipment fleet directory split into Self Owned and Hired.
 
 import { useState } from "react";
 import { completeFleet } from "@/app/machinery/machinery_constants";

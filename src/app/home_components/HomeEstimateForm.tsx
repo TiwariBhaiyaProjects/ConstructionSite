@@ -1,4 +1,6 @@
 "use client";
+// RESPONSIBILITY: Renders and controls the construction estimate request form. On submit, composes a WhatsApp message with form data.
+
 
 import { useState } from "react";
 import { Send } from "lucide-react";

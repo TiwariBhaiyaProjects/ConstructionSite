@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the grid of all completed project cards.
 
 import { useState } from "react";
 import Image from "next/image";

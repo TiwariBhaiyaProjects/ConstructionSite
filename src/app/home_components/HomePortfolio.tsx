@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the filterable project portfolio grid with Framer Motion animations.
 
 import { useState } from "react";
 import { motion } from "framer-motion";

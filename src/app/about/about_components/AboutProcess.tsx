@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the company construction process steps.
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { processSteps } from "@/app/about/about_components/about_constants";

@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the leadership team, work experience history, and vendor partners.
 import { HardHat, CheckCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { teamMembers, workExperience, vendorPartners } from "@/app/about/about_components/about_constants";

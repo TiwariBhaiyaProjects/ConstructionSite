@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the company founding story and background timeline.
 import { ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import { companyInfo, aboutUsText } from "@/app/about/about_components/about_constants";

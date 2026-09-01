@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the main sticky navigation bar with glassmorphism. Manages scroll state, mobile menu toggle, and scroll progress bar.
 
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";

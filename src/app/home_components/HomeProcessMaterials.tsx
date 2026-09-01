@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the two-column section showing the construction process steps and premium materials.
 
 import Link from "next/link";
 import { Clock, Truck, ArrowRight } from "lucide-react";
@@ -20,7 +21,7 @@ export default function HomeProcessMaterials() {
             <h3 className="text-3xl font-bold mb-8 flex items-center gap-2"><Clock className="w-7 h-7 text-brand-primary" /> Our Process</h3>
             <div className="space-y-6">
               {processSteps.map((step, i) => (
-                <div key={i} className="flex gap-5 group hover:translate-x-2 transition-all duration-300">
+                <div key={step.step !== undefined ? step.step : i} className="flex gap-5 group hover:translate-x-2 transition-all duration-300">
                   <div className="w-16 h-16 rounded-2xl bg-brand-primary/10 border border-brand-primary/30 flex items-center justify-center flex-shrink-0 group-hover:bg-brand-primary group-hover:text-brand-dark transition-all">
                     <span className="text-2xl font-bold text-brand-primary group-hover:text-brand-dark">{step.step}</span>
                   </div>

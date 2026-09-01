@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Wraps the app with all global React context providers (theme, toast, etc.).
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider as NextThemesProvider } from "next-themes";

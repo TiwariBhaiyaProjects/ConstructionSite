@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the final bottom CTA section with contact details, social icons, and estimate form.
 
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
 import HomeEstimateForm from "@/app/home_components/HomeEstimateForm";

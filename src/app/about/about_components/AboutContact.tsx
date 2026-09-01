@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the full contact details and estimate form on the About page.
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { companyInfo } from "@/app/about/about_components/about_constants";

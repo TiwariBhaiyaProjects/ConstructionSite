@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the paginated, filterable list of all construction projects.
 
 import { useState } from "react";
 import Image from "next/image";

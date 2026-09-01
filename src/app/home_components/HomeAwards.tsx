@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the awards, certifications and accreditations strip.
 import { Award, ShieldCheck, Award as Trophy } from "lucide-react";
 import { awards } from "@/app/home_components/home_constants";
 
@@ -20,7 +21,7 @@ export default function HomeAwards() {
         </div>
         <div className="flex flex-wrap justify-center gap-8">
           {awards.map((award, i) => (
-            <div key={i} className="text-center">
+            <div key={award.name} className="text-center">
               <div className="w-20 h-20 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 {getIcon(award.icon)}
               </div>

@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the contractor license cards with all registration details.
 import { BadgeCheck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { contractorLicenses } from "@/app/about/about_components/about_constants";

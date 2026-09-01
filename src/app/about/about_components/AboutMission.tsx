@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the mission, vision, and values section.
 
 import { Building2, ClipboardCheck, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";

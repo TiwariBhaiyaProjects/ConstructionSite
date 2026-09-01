@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the financial turnover history and collaborative work experience.
 import { Card, CardContent } from "@/components/ui/card";
 import { financialTurnover, collaborativeExperience } from "@/app/about/about_components/about_constants";
 

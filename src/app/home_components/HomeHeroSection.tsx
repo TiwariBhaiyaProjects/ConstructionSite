@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the full-viewport hero section with background image, headline, CTAs, and embedded estimate form card.
 
 import Link from "next/link";
 import { Calculator, ShieldCheck, Star, MessageCircle } from "lucide-react";

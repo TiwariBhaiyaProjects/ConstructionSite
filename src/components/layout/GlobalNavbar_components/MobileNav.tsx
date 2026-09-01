@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the collapsible mobile navigation menu with slide-down animation.
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";

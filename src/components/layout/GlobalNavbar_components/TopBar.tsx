@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the contact details top bar above the navbar. Hidden on mobile and on scroll.
 
 import { Phone, Mail, MapPin, ShieldCheck, Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
 import { companyInfo } from "@/components/layout/layout_constants";

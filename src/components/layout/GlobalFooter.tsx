@@ -1,3 +1,4 @@
+// RESPONSIBILITY: Renders the global site footer with company info, quick links, contact details, and social icons.
 import Link from "next/link";
 import Image from "next/image";
 import {

@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the featured machinery image card grid showcasing top heavy equipment.
 
 import Image from "next/image";
 import { machinery } from "@/app/machinery/machinery_constants";

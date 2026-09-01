@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the floating scroll-to-top button. Appears after scrolling down 300px.
 
 import { ArrowUp } from "lucide-react";
 import { Button } from "@/components/ui/button";

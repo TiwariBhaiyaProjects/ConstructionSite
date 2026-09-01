@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the live/active projects showcase cards with progress bars.
 
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
@@ -18,7 +19,7 @@ export default function HomeLiveProjects() {
 
         <div className="space-y-6">
           {liveProjects.map((proj, i) => (
-            <Card key={i} className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
+            <Card key={proj.id} className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all">
               <CardContent className="p-8">
                 <div className="flex flex-wrap justify-between items-start mb-4">
                   <div>

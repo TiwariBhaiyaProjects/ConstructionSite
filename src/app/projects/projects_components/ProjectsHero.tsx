@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the projects page hero section.
 
 import Link from "next/link";
 import { Home, Layers } from "lucide-react";

@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the machinery page hero section.
 
 import Link from "next/link";
 import { Home } from "lucide-react";

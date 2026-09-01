@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the key company statistics strip (years of experience, projects, workers).
 
 import { motion } from "framer-motion";
 import { stats } from "@/app/home_components/home_constants";
@@ -10,7 +11,7 @@ export default function HomeStats() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {stats.map((stat, i) => (
             <motion.div 
-              key={i} 
+              key={stat.label || i} 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

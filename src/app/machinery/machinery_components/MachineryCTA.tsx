@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the machinery page bottom call-to-action section.
 
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";

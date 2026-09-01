@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders a branded 404 page with a Back to Home button for missing routes.
 
 import { useEffect } from "react";
 import Link from "next/link";
@@ -8,7 +9,7 @@ export default function NotFound() {
   const pathname = usePathname();
 
   useEffect(() => {
-    console.error("404 Error: User attempted to access non-existent route:", pathname);
+    // TODO: Replace with centralized logger
   }, [pathname]);
 
   return (

@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Typed Next.js Error Boundary. Catches rendering crashes and displays a branded retry UI.
 
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -11,7 +12,7 @@ export default function ErrorBoundary({
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error(error);
+    // TODO: Replace with centralized logger
   }, [error]);
 
   return (

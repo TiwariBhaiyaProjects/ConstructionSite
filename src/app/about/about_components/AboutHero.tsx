@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the about page hero section with company headline.
 
 import Link from "next/link";
 import { Home, ShieldCheck } from "lucide-react";

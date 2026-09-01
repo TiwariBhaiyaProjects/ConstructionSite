@@ -1,4 +1,5 @@
 "use client";
+// RESPONSIBILITY: Renders the desktop horizontal navigation links with active underline indicator.
 
 import { useState } from "react";
 import Link from "next/link";
