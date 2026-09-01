@@ -44,201 +44,60 @@ export const navLinks = [
 // Core services for public construction website
 export const services = [
   {
-    id: "residential-construction",
-    title: "Residential Construction",
-    subtitle: "End-to-end home construction for families",
-    description:
-      "From site visit and planning to structure, finishing and handover, we manage complete home construction with quality checks at every stage.",
-    category: "Home Construction",
-    features: [
-      "New home construction",
-      "1BHK, 2BHK, 3BHK and duplex homes",
-      "Foundation, RCC frame and masonry",
-      "Electrical, plumbing and finishing",
-      "Site supervision and quality checks",
-      "Stage-wise payment planning",
-    ],
-    stats: [
-      { value: "G+1", label: "Popular Plan" },
-      { value: "90-180", label: "Days Typical" },
-      { value: "QC", label: "Stage Checks" },
-    ],
-    image:
-      "/images/hero-bridge.jpeg",
-    gallery: [
-      "/images/site-highway.jpeg",
-      "/images/modi-nitish.jpeg",
-      "/images/aerial-roundabout.jpeg",
-    ],
+    id: "road-highways",
+    title: "Roads & Highways",
+    subtitle: "Four/Six lane construction and widening",
+    description: "Expertise in greenfield projects, highway widening, paved shoulders, and extensive road network development under government tenders.",
+    category: "Infrastructure",
+    features: ["Greenfield projects", "Highway widening", "Paved shoulders", "Bitumen and concrete roads", "Precast installation", "Safety planning"],
+    stats: [{ value: "719Cr", label: "Max Value" }, { value: "NHAI", label: "Client" }, { value: "Turnkey", label: "Delivery" }],
+    image: "/icon.png",
+    gallery: ["/icon.png", "/icon.png", "/icon.png"]
   },
   {
-    id: "commercial-construction",
-    title: "Commercial Construction",
-    subtitle: "Functional spaces for shops, offices and institutions",
-    description:
-      "We build practical commercial spaces with durable structure, efficient layouts and clear project timelines for business owners.",
+    id: "bridges-structures",
+    title: "Bridges & Structures",
+    subtitle: "Major bridges, ROBs, and Viaducts",
+    description: "Construction of major river bridges, Railway Over Bridges (ROB), Road Under Bridges (RUB), and viaducts using advanced precast pushing methods.",
+    category: "Infrastructure",
+    features: ["Major river bridges", "Railway Over Bridges (ROB)", "Road Under Bridges (RUB)", "Viaduct construction", "Precast pushing installation", "Heavy structural engineering"],
+    stats: [{ value: "76m", label: "Span Length" }, { value: "Major", label: "Structures" }, { value: "Expert", label: "Execution" }],
+    image: "/icon.png",
+    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+  },
+  {
+    id: "water-supply",
+    title: "Water Supply Projects",
+    subtitle: "Rural and urban water supply infrastructure",
+    description: "Large scale water supply projects for PHED, including elevated storage tanks, treatment plants, and distribution pipelines.",
+    category: "Civil Work",
+    features: ["Elevated water tanks", "Pipeline distribution networks", "Water treatment plants", "Pump house construction", "Rural water supply", "Urban water supply"],
+    stats: [{ value: "120Cr", label: "Project Value" }, { value: "PHED", label: "Client" }, { value: "Tested", label: "Quality" }],
+    image: "/icon.png",
+    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+  },
+  {
+    id: "irrigation-canal",
+    title: "Irrigation & Canal",
+    subtitle: "Erosion protection and canal divisions",
+    description: "Execution of erosion protection works, pond renovation, and extensive canal works for water resource departments.",
+    category: "Civil Work",
+    features: ["Erosion protection", "Canal excavation and lining", "Pond renovation", "Embankment strengthening", "Water resource management", "Flood protection works"],
+    stats: [{ value: "18.5Cr", label: "Protection" }, { value: "Govt", label: "Client" }, { value: "Proven", label: "Record" }],
+    image: "/icon.png",
+    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+  },
+  {
+    id: "building-construction",
+    title: "Building Construction",
+    subtitle: "Commercial and institutional buildings",
+    description: "Construction of control rooms, office buildings, and institutional structures with complete MEP and finishing works.",
     category: "Commercial",
-    features: [
-      "Shops and office buildings",
-      "Showroom and warehouse structure",
-      "Schools, clinics and small institutions",
-      "Parking and utility planning",
-      "Fire and safety coordination",
-      "Vendor and material coordination",
-    ],
-    stats: [
-      { value: "10+", label: "Complexes" },
-      { value: "RCC", label: "Structure" },
-      { value: "Turnkey", label: "Delivery" },
-    ],
-    image:
-      "/images/modi-bridge-walk.jpeg",
-    gallery: [
-      "/images/night-highway.jpeg",
-      "/images/modi-waving.jpeg",
-      "/images/ribbon-cutting.jpeg",
-    ],
-  },
-  {
-    id: "g-plus-building",
-    title: "G+1 / G+2 Building",
-    subtitle: "Multi-floor construction with structural planning",
-    description:
-      "Structural design, column layout, staircase planning and floor-wise execution for G+1 and G+2 buildings.",
-    category: "Multi-floor",
-    features: [
-      "G+1 and G+2 structure planning",
-      "Column, beam and slab execution",
-      "Staircase and terrace planning",
-      "Future floor expansion guidance",
-      "Soil and foundation coordination",
-      "Engineer-led site checks",
-    ],
-    stats: [
-      { value: "G+2", label: "Supported" },
-      { value: "M25", label: "RCC Options" },
-      { value: "BOQ", label: "Estimate" },
-    ],
-    image:
-      "/images/team-members.jpeg",
-    gallery: [
-      "/images/hero-bridge.jpeg",
-      "/images/site-highway.jpeg",
-      "/images/modi-nitish.jpeg",
-    ],
-  },
-  {
-    id: "renovation",
-    title: "Renovation",
-    subtitle: "Upgrade old homes and commercial spaces",
-    description:
-      "We handle structural repairs, layout changes, waterproofing, flooring, paint and finishing upgrades for existing properties.",
-    category: "Renovation",
-    features: [
-      "Old house renovation",
-      "Kitchen and bathroom remodeling",
-      "Waterproofing and seepage repair",
-      "Flooring, tiles and paint",
-      "Front elevation upgrade",
-      "Before-after documentation",
-    ],
-    stats: [
-      { value: "7-45", label: "Days Typical" },
-      { value: "Low", label: "Downtime" },
-      { value: "Repair", label: "Focused" },
-    ],
-    image:
-      "/images/aerial-roundabout.jpeg",
-    gallery: [
-      "/images/modi-bridge-walk.jpeg",
-      "/images/night-highway.jpeg",
-      "/images/modi-waving.jpeg",
-    ],
-  },
-  {
-    id: "interior-work",
-    title: "Interior Work",
-    subtitle: "Practical interiors with clean finishing",
-    description:
-      "Interior planning, false ceiling, modular furniture coordination, lighting, paint and finish work for homes and offices.",
-    category: "Interiors",
-    features: [
-      "False ceiling and lighting",
-      "Modular kitchen coordination",
-      "Wardrobe and storage planning",
-      "Tile, paint and texture work",
-      "Office interior execution",
-      "Final snag correction",
-    ],
-    stats: [
-      { value: "2D/3D", label: "Design" },
-      { value: "Finish", label: "Focused" },
-      { value: "Budget", label: "Aligned" },
-    ],
-    image:
-      "/images/ribbon-cutting.jpeg",
-    gallery: [
-      "/images/team-members.jpeg",
-      "/images/hero-bridge.jpeg",
-      "/images/site-highway.jpeg",
-    ],
-  },
-  {
-    id: "civil-work",
-    title: "Civil Work",
-    subtitle: "Reliable civil execution for sites and utilities",
-    description:
-      "Civil work for foundations, boundary walls, drainage, roads, pavements, water lines and site development.",
-    category: "Civil",
-    features: [
-      "Foundation and excavation",
-      "Boundary wall construction",
-      "Drainage and utility work",
-      "Road and pavement work",
-      "Water supply and pipeline work",
-      "Site leveling and compaction",
-    ],
-    stats: [
-      { value: "70+", label: "Machines" },
-      { value: "Infra", label: "Ready" },
-      { value: "Safety", label: "Checks" },
-    ],
-    image:
-      "/images/modi-nitish.jpeg",
-    gallery: [
-      "/images/aerial-roundabout.jpeg",
-      "/images/modi-bridge-walk.jpeg",
-      "/images/night-highway.jpeg",
-    ],
-  },
-  {
-    id: "architecture-planning",
-    title: "Architecture / Planning",
-    subtitle: "Maps, layouts, estimates and execution planning",
-    description:
-      "We help clients convert plot requirements into practical layouts, estimate sheets, stage planning and execution-ready scope.",
-    category: "Planning",
-    features: [
-      "House map and layout planning",
-      "Front elevation concepts",
-      "BOQ and estimate support",
-      "Material selection guidance",
-      "Timeline and payment schedule",
-      "Approval coordination guidance",
-    ],
-    stats: [
-      { value: "BOQ", label: "Ready" },
-      { value: "3D", label: "Concepts" },
-      { value: "Plan", label: "First" },
-    ],
-    image:
-      "/images/modi-waving.jpeg",
-    gallery: [
-      "/images/ribbon-cutting.jpeg",
-      "/images/team-members.jpeg",
-      "/images/hero-bridge.jpeg",
-    ],
-  },
+    features: ["Sub-divisional control rooms", "Executive offices", "Institutional buildings", "Complete structural work", "MEP execution", "Finishing and handover"],
+    stats: [{ value: "25Cr", label: "Building" }, { value: "Turnkey", label: "Delivery" }, { value: "On Time", label: "Completion" }],
+    image: "/icon.png",
+    gallery: ["/icon.png", "/icon.png", "/icon.png"]
+  }
 ];
 
 export const expertise = services.slice(0, 3);
@@ -397,106 +256,106 @@ export const processSteps = [
 export const projects = [
   {
     id: 1,
-    title: "Improvement and Up-gradation to Four Lane NH-227A",
+    title: "Improvement and Up-gradation to Four Lane of NH-227A",
     category: "infrastructure",
-    value: "Rs. 717 Cr",
-    location: "Bihar",
+    value: "Rs. 719 Cr",
+    location: "Mehrauna Ghat to Siwan (Bihar)",
     status: "Ongoing",
     year: "Current",
-    plotSize: "Highway",
-    floors: "Road work",
+    plotSize: "40.842 Km",
+    floors: "Road Work",
     timeline: "Ongoing",
-    budgetRange: "Government project",
-    progress: 50,
-    description: "Four Lane with Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500 of NH-227A in the state of Bihar on Hybrid Annuity Mode.",
-    image: "/images/modi-waving.jpeg",
-    highlights: ["NHAI", "717 Cr Value", "Road Work"],
+    budgetRange: "Government Project",
+    progress: 45,
+    description: "Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500 of NH-227A.",
+    image: "/icon.png",
+    highlights: ["MORTH", "719 Cr Value", "Four Lane Highway"],
   },
   {
     id: 2,
-    title: "Four/Six Laning of Auta - Simaria (Ganga Bridge)",
+    title: "New Construction of Four/Six Lane Road Project",
     category: "infrastructure",
-    value: "Rs. 202 Cr",
-    location: "Bihar",
+    value: "Rs. 348.4 Cr",
+    location: "Aunta-Simariya",
     status: "Ongoing",
     year: "Current",
-    plotSize: "Bridge/Highway",
-    floors: "Road work",
+    plotSize: "8.150 Km",
+    floors: "Road Work",
     timeline: "Ongoing",
-    budgetRange: "Government project",
-    progress: 60,
-    description: "Ganga Bridge with Approach Road section of NH-31 from Km 197.900 to Km 206.050 Total Design Length 8.150km on Hybrid Annuity Mode.",
-    image: "/images/modi-nitish.jpeg",
-    highlights: ["Ganga Bridge", "202 Cr Value", "Road Work"],
+    budgetRange: "Government Project",
+    progress: 70,
+    description: "Four/Six laning of Aunta-Simaria (Ganga Bridge with approach road) section of NH-31.",
+    image: "/icon.png",
+    highlights: ["Ganga Bridge", "348.4 Cr Value", "NH-31"],
   },
   {
     id: 3,
-    title: "Four Lane Purina Saharsha Road Project",
-    category: "infrastructure",
-    value: "Rs. 120 Cr",
-    location: "Bihar",
-    status: "Ongoing",
-    year: "Current",
-    plotSize: "Highway",
-    floors: "Road work",
-    timeline: "Ongoing",
-    budgetRange: "Government project",
-    progress: 75,
-    description: "Four Lane Purina Saharsha Road Project for Rajkeshri project pvt ltd.",
-    image: "/images/site-highway.jpeg",
-    highlights: ["120 Cr Value", "Road Work"],
-  },
-  {
-    id: 4,
     title: "PHED Khagaria (Bihar) Water Supply",
     category: "infrastructure",
     value: "Rs. 120 Cr",
     location: "Khagaria, Bihar",
     status: "Completed",
     year: "2020",
-    plotSize: "Network project",
-    floors: "Public utility",
+    plotSize: "District-wide",
+    floors: "Water Supply",
     timeline: "Completed",
-    budgetRange: "Government project",
+    budgetRange: "Government Project",
     progress: 100,
-    description: "Rural and Urban water supply project with pipeline and distribution work.",
-    image: "/images/night-highway.jpeg",
-    highlights: ["Water supply", "Public project", "Pipeline work"],
+    description: "Rural and Urban water supply project.",
+    image: "/icon.png",
+    highlights: ["PHED", "Water Supply", "120 Cr"],
+  },
+  {
+    id: 4,
+    title: "Construction of Four Lane Purnia-Saharsa Road Project",
+    category: "infrastructure",
+    value: "Rs. 120 Cr",
+    location: "Purnia-Saharsa",
+    status: "Completed",
+    year: "2025",
+    plotSize: "Highway",
+    floors: "Road Work",
+    timeline: "Completed",
+    budgetRange: "Government Project",
+    progress: 100,
+    description: "Major highway widening and paving project.",
+    image: "/icon.png",
+    highlights: ["Completed", "120 Cr Value", "Four Lane"],
   },
   {
     id: 5,
     title: "Construction of Sub Divisional Control Room SKMCH",
     category: "commercial",
     value: "Rs. 25 Cr",
-    location: "Muzaffarpur, Bihar",
+    location: "Muzaffarpur",
     status: "Completed",
     year: "2024",
     plotSize: "Commercial",
     floors: "Building",
     timeline: "Completed",
-    budgetRange: "Government project",
+    budgetRange: "Government Project",
     progress: 100,
-    description: "Construction of Sub Divisional Control Room SKMCH in Muzaffarpur.",
-    image: "/images/aerial-roundabout.jpeg",
-    highlights: ["Completed", "25 Cr Value"],
+    description: "Construction of Sub Divisional Control Room SKMCH.",
+    image: "/icon.png",
+    highlights: ["Completed", "25 Cr Value", "SKMCH"],
   },
   {
     id: 6,
     title: "Erosion protection Work from Salehpur Tundaspur",
     category: "infrastructure",
     value: "Rs. 18.5 Cr",
-    location: "Gopalganj, Bihar",
+    location: "Gopalganj",
     status: "Completed",
     year: "2021",
-    plotSize: "River bank",
+    plotSize: "5.0 Km",
     floors: "Civil Work",
     timeline: "Completed",
-    budgetRange: "Government project",
+    budgetRange: "Government Project",
     progress: 100,
-    description: "Erosion protection Work from Salehpur Tundaspur chharki Km.0.0 Km. 5.0 Water Resources department.",
-    image: "/images/modi-bridge-walk.jpeg",
-    highlights: ["Completed", "Water Resources"],
-  },
+    description: "Erosion protection Work from Salehpur Tundaspurchharki Km. 0.0 to Km. 5.0.",
+    image: "/icon.png",
+    highlights: ["Completed", "Erosion Protection", "18.5 Cr"],
+  }
 ];
 
 export const liveProjects = [
@@ -590,54 +449,16 @@ export const testimonials = [
 ];
 
 export const galleryItems = [
-  {
-    title: "Modern Home Elevation",
-    type: "3D Design",
-    image:
-      "/images/ribbon-cutting.jpeg",
-  },
-  {
-    title: "Residential Construction Site",
-    type: "Ongoing Site",
-    image:
-      "/images/team-members.jpeg",
-  },
-  {
-    title: "Duplex Interior Concept",
-    type: "Interior",
-    image:
-      "/images/hero-bridge.jpeg",
-  },
-  {
-    title: "Commercial Building Exterior",
-    type: "Completed Project",
-    image:
-      "/images/site-highway.jpeg",
-  },
-  {
-    title: "Renovation Before/After",
-    type: "Before/After",
-    image:
-      "/images/modi-nitish.jpeg",
-  },
-  {
-    title: "Road Work Drone View",
-    type: "Drone Shot",
-    image:
-      "/images/aerial-roundabout.jpeg",
-  },
-  {
-    title: "Water Pipeline Work",
-    type: "Civil Work",
-    image:
-      "/images/modi-bridge-walk.jpeg",
-  },
-  {
-    title: "Kitchen Finish Work",
-    type: "Interior",
-    image:
-      "/images/night-highway.jpeg",
-  },
+  { title: "Aunta-Simriya Six Lane Project", type: "Project Gallery", image: "/icon.png" },
+  { title: "Gaya Dobhi Project", type: "Road Work", image: "/icon.png" },
+  { title: "Tata Hitachi Excavator", type: "Machinery", image: "/icon.png" },
+  { title: "PHED Khagaria Water Supply", type: "Public Utility", image: "/icon.png" },
+  { title: "PHED Patna (Mokama) Water Supply", type: "Public Utility", image: "/icon.png" },
+  { title: "Salehpur Tundaspur Erosion Protection", type: "Civil Work", image: "/icon.png" },
+  { title: "Speedcrafts Mixing Plant", type: "Plant", image: "/icon.png" },
+  { title: "Macons Concrete Plant", type: "Plant", image: "/icon.png" },
+  { title: "Minor Irrigation Division Gaya", type: "Performance Certificate", image: "/icon.png" },
+  { title: "Irrigation Division Pakur", type: "Performance Certificate", image: "/icon.png" }
 ];
 
 export const designCatalog = [
@@ -816,79 +637,14 @@ export const machineryList = [
 ];
 
 export const machinery = [
-  {
-    id: 2,
-    name: "Excavators",
-    category: "excavator",
-    specs: "Qty: 4",
-    status: "On Site",
-    image: "/images/Excavators (Heavy-Duty).png",
-    description: "Heavy-duty excavators for large-scale earthwork and digging operations.",
-  },
-  {
-    id: 3,
-    name: "Motor Grader",
-    category: "other",
-    specs: "Qty: 3",
-    status: "Available",
-    image: "/images/Motor_Grader.png",
-    description: "Motor graders for road leveling and grading operations.",
-  },
-  {
-    id: 4,
-    name: "Dozer",
-    category: "other",
-    specs: "Qty: 2",
-    status: "On Site",
-    image: "/images/Dozer.png",
-    description: "Dozers for heavy earthmoving and pushing operations.",
-  },
-  {
-    id: 5,
-    name: "Backhoe Loader",
-    category: "jcb",
-    specs: "Qty: 3",
-    status: "Available",
-    image: "/images/Backhoe_Loader.png",
-    description: "Versatile backhoe loaders for excavation and loading operations.",
-  },
-  {
-    id: 6,
-    name: "Ready Mix Concrete Plants",
-    category: "other",
-    specs: "30m3 & 60m3 (Qty: 2)",
-    status: "Available",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
-    description: "High-capacity concrete mixing plants for large projects.",
-  },
-
-  {
-    id: 8,
-    name: "Transit Mixer / Miller",
-    category: "other",
-    specs: "Qty: 4",
-    status: "On Site",
-    image: "/images/Transit_Mixer_Miller.png",
-    description: "Transit mixers for transporting ready-mix concrete to sites.",
-  },
-  {
-    id: 9,
-    name: "Soil Compactor",
-    category: "roller",
-    specs: "Qty: 3",
-    status: "Available",
-    image: "/images/Soil_Compactor.png",
-    description: "Heavy-duty compactors for soil and road foundation preparation.",
-  },
-  {
-    id: 10,
-    name: "Hydra Crane",
-    category: "crane",
-    specs: "Qty: 2",
-    status: "On Site",
-    image: "/images/Hydra_Crane.png",
-    description: "Mobile hydra cranes for material handling and lifting.",
-  }
+  { id: 1, name: "Dumper / Truck", category: "transport", specs: "Qty: 35", status: "Available", image: "/icon.png", description: "Heavy-duty dumpers and trucks for material transport." },
+  { id: 2, name: "Excavators", category: "excavator", specs: "Qty: 9", status: "On Site", image: "/icon.png", description: "High-capacity excavators including Tata Hitachi models for large-scale earthwork." },
+  { id: 3, name: "Transit Mixer / Miller", category: "concrete", specs: "Qty: 10", status: "Available", image: "/icon.png", description: "Transit mixers for transporting ready-mix concrete to sites." },
+  { id: 4, name: "Ready Mix Concrete Plants", category: "concrete", specs: "30m³ & 60m³ (Qty: 3)", status: "Available", image: "/icon.png", description: "High-capacity concrete mixing plants for large infrastructure projects." },
+  { id: 5, name: "Backhoe Loader", category: "jcb", specs: "Qty: 6", status: "On Site", image: "/icon.png", description: "Versatile backhoe loaders for excavation and loading operations." },
+  { id: 6, name: "Motor Grader", category: "road", specs: "Qty: 4", status: "Available", image: "/icon.png", description: "Motor graders for road leveling and grading operations." },
+  { id: 7, name: "Hydra Crane", category: "crane", specs: "Qty: 5", status: "On Site", image: "/icon.png", description: "Mobile hydra cranes for material handling and lifting." },
+  { id: 8, name: "Steel Cutting & Bending Machine", category: "tools", specs: "Qty: 12", status: "Available", image: "/icon.png", description: "Heavy-duty machines for reinforcement preparation." }
 ];
 
 export const financialTurnover = [
@@ -1004,8 +760,8 @@ export const socialLinks = [
 ];
 
 export const aboutUsText = [
-  "Rajnandini Construction Was Formed in 2013 With The Objective of Establishing a Sustainable and Continually Improving Construction Company Which is Able to Provide Predictable and Quality Constructions to Our Clients While Concurrently Fostering Lasting Relationships with Professionals, Local Councils, Government Bodies, Trade Contractors and Suppliers.",
-  "As Building Contractors and Developers, Rajnandini Construction Is Well Equipped to Undertake the Most Technical Constructions and to Direct and Manage the Works from Design to Handover. Whether You Require the Construction Only or You Require a Full Design and Construct Package, We Can Manage the Process and Deliver You the Finished Product. We Undertake the Majority of Our Works Up to Rs.200cr Range.",
+  "Rajnandini Construction was formed in 2013 with the objective of establishing a sustainable and continually improving construction company which is able to provide predictable and quality constructions to our clients, while concurrently fostering lasting relationships with professionals, local councils, government bodies, trade contractors, and suppliers.",
+  "As building contractors and developers, Rajnandini Construction is well equipped to undertake the most technical constructions and to direct and manage the works from design to handover. Whether you require the construction only or a full design and construct package, we can manage the process and deliver you the finished product. We undertake the majority of our works up to the Rs. 719 Cr range."
 ];
 
 export const collaborativeExperience = [
