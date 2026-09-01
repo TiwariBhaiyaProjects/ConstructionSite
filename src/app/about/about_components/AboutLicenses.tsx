@@ -1,6 +1,6 @@
 import { BadgeCheck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { contractorLicenses } from "./about_constants";
+import { contractorLicenses } from "@/app/about/about_components/about_constants";
 
 export default function AboutLicenses() {
   return (

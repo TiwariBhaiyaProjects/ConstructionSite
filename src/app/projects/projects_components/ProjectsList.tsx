@@ -8,8 +8,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { projects } from "../projects_constants";
-import { projectsCategories } from "../projects_constants";
+import { projects } from "@/app/projects/projects_constants";
+import { projectsCategories } from "@/app/projects/projects_constants";
 import { APP_URLS } from "@/lib/app_urls";
 
 export default function ProjectsList() {

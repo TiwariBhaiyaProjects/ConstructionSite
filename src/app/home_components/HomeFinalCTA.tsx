@@ -1,8 +1,8 @@
 "use client";
 
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
-import HomeEstimateForm from "./HomeEstimateForm";
-import { companyInfo } from "./home_constants";
+import HomeEstimateForm from "@/app/home_components/HomeEstimateForm";
+import { companyInfo } from "@/app/home_components/home_constants";
 
 export default function HomeFinalCTA() {
   const whatsappUrl = `https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(

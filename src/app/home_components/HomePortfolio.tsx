@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { projects } from "./home_constants";
+import { projects } from "@/app/home_components/home_constants";
 
 export default function HomePortfolio() {
   const [activeFilter, setActiveFilter] = useState("All");

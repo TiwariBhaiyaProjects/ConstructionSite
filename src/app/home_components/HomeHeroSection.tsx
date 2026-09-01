@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { Calculator, ShieldCheck, Star, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import HomeEstimateForm from "./HomeEstimateForm";
+import HomeEstimateForm from "@/app/home_components/HomeEstimateForm";
 import { motion } from "framer-motion";
-import { companyInfo } from "./home_constants";
-import { landingImages } from "./home_constants";
+import { companyInfo } from "@/app/home_components/home_constants";
+import { landingImages } from "@/app/home_components/home_constants";
 import Image from "next/image";
 
 export default function HomeHeroSection() {

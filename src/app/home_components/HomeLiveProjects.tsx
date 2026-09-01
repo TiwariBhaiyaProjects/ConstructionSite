@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { liveProjects } from "./home_constants";
+import { liveProjects } from "@/app/home_components/home_constants";
+import { ClipboardList } from "lucide-react";
 
 export default function HomeLiveProjects() {
   return (
@@ -32,7 +33,7 @@ export default function HomeLiveProjects() {
                 <div className="h-3 bg-gray-200 rounded-full mb-4">
                   <div className="h-3 bg-brand-primary rounded-full transition-all duration-1000" style={{ width: `${proj.progress}%` }} />
                 </div>
-                <p className="text-gray-600 flex items-start gap-2"><span className="text-brand-primary">📋</span> {proj.description}</p>
+                <p className="text-gray-600 flex items-start gap-2"><ClipboardList className="w-5 h-5 text-brand-primary shrink-0" /> {proj.description}</p>
               </CardContent>
             </Card>
           ))}

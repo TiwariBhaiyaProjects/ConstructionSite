@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Public_Sans } from "next/font/google";
 import "./globals.css";
-import { Providers } from "./providers";
+import { Providers } from "@/app/providers";
 import GlobalNavbar from "@/components/layout/GlobalNavbar";
 import GlobalFooter from "@/components/layout/GlobalFooter";
 import NextTopLoader from "nextjs-toploader";

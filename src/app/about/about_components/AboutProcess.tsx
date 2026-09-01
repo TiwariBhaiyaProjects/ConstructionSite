@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { processSteps } from "./about_constants";
+import { processSteps } from "@/app/about/about_components/about_constants";
 
 export default function AboutProcess() {
   return (

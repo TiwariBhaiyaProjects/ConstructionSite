@@ -7,8 +7,8 @@ import { MapPin, Ruler, Layers, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { projects } from "../completed_projects_constants";
-import { completedProjectsCategories } from "../completed_projects_constants";
+import { projects } from "@/app/completed-projects/completed_projects_constants";
+import { completedProjectsCategories } from "@/app/completed-projects/completed_projects_constants";
 
 export default function CompletedProjectsList() {
   const [activeCategory, setActiveCategory] = useState("all");

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Building2, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { liveProjects } from "../projects_constants";
+import { liveProjects } from "@/app/projects/projects_constants";
 import { APP_URLS } from "@/lib/app_urls";
 import Link from "next/link";
 

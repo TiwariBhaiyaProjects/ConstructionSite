@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { completeFleet } from "../machinery_constants";
+import { completeFleet } from "@/app/machinery/machinery_constants";
 import { Badge } from "@/components/ui/badge";
 import { ChevronLeft, ChevronRight, Settings2 } from "lucide-react";
 

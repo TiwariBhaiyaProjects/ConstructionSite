@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { APP_URLS } from "@/lib/app_urls";
 import { Menu, X, Home, Briefcase, Image as ImageIcon, Package, Users } from "lucide-react";
-import TopBar from "./GlobalNavbar_components/TopBar";
-import DesktopNav from "./GlobalNavbar_components/DesktopNav";
-import MobileNav from "./GlobalNavbar_components/MobileNav";
+import TopBar from "@/components/layout/GlobalNavbar_components/TopBar";
+import DesktopNav from "@/components/layout/GlobalNavbar_components/DesktopNav";
+import MobileNav from "@/components/layout/GlobalNavbar_components/MobileNav";
 
 // Navigation Links with Icons
 const navLinks = [

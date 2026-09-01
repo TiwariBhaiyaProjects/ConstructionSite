@@ -2,7 +2,7 @@
 
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { companyInfo } from "../machinery_constants";
+import { companyInfo } from "@/app/machinery/machinery_constants";
 import { APP_URLS } from "@/lib/app_urls";
 import Link from "next/link";
 

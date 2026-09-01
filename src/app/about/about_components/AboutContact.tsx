@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { companyInfo } from "./about_constants";
+import { companyInfo } from "@/app/about/about_components/about_constants";
 
 export default function AboutContact() {
   return (

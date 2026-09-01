@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { APP_URLS } from "@/lib/app_urls";
-import { companyInfo } from "../layout_constants";
+import { companyInfo } from "@/components/layout/layout_constants";
 import { Phone, Mail, Clock, Calculator, MessageCircle, Facebook, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 

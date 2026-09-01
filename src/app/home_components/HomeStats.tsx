@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { stats } from "./home_constants";
+import { stats } from "@/app/home_components/home_constants";
 
 export default function HomeStats() {
   return (

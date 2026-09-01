@@ -1,11 +1,11 @@
-import AboutHero from "./about_components/AboutHero";
-import AboutStory from "./about_components/AboutStory";
-import AboutMission from "./about_components/AboutMission";
-import AboutLicenses from "./about_components/AboutLicenses";
-import AboutFinancials from "./about_components/AboutFinancials";
-import AboutTeam from "./about_components/AboutTeam";
-import AboutProcess from "./about_components/AboutProcess";
-import AboutContact from "./about_components/AboutContact";
+import AboutHero from "@/app/about/about_components/AboutHero";
+import AboutStory from "@/app/about/about_components/AboutStory";
+import AboutMission from "@/app/about/about_components/AboutMission";
+import AboutLicenses from "@/app/about/about_components/AboutLicenses";
+import AboutFinancials from "@/app/about/about_components/AboutFinancials";
+import AboutTeam from "@/app/about/about_components/AboutTeam";
+import AboutProcess from "@/app/about/about_components/AboutProcess";
+import AboutContact from "@/app/about/about_components/AboutContact";
 
 export default function AboutPage() {
   return (

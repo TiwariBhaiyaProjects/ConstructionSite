@@ -1,7 +1,7 @@
 "use client";
 
 import { Phone, Mail, MapPin, ShieldCheck, Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
-import { companyInfo } from "../layout_constants";
+import { companyInfo } from "@/components/layout/layout_constants";
 
 export default function TopBar({ isScrolled }: { isScrolled: boolean }) {
   const whatsappUrl = `https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(

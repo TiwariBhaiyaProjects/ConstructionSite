@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Home, ShieldCheck } from "lucide-react";
-import { companyInfo } from "./about_constants";
+import { companyInfo } from "@/app/about/about_components/about_constants";
 import { motion } from "framer-motion";
 
 export default function AboutHero() {

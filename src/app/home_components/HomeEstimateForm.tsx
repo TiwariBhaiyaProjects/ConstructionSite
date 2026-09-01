@@ -14,7 +14,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { companyInfo } from "./home_constants";
+import { companyInfo } from "@/app/home_components/home_constants";
 
 interface HomeEstimateFormProps {
   source?: string;

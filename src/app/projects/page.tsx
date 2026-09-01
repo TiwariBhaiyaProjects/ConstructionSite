@@ -1,6 +1,6 @@
-import ProjectsHero from "./projects_components/ProjectsHero";
-import ProjectsList from "./projects_components/ProjectsList";
-import ProjectsLive from "./projects_components/ProjectsLive";
+import ProjectsHero from "@/app/projects/projects_components/ProjectsHero";
+import ProjectsList from "@/app/projects/projects_components/ProjectsList";
+import ProjectsLive from "@/app/projects/projects_components/ProjectsLive";
 
 export default function ProjectsPage() {
   return (

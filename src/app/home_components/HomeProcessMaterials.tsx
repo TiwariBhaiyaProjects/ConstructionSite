@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Clock, Truck, ArrowRight } from "lucide-react";
-import { processSteps, materials } from "./home_constants";
+import { processSteps, materials } from "@/app/home_components/home_constants";
 
 export default function HomeProcessMaterials() {
   return (

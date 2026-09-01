@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { financialTurnover, collaborativeExperience } from "./about_constants";
+import { financialTurnover, collaborativeExperience } from "@/app/about/about_components/about_constants";
 
 export default function AboutFinancials() {
   return (

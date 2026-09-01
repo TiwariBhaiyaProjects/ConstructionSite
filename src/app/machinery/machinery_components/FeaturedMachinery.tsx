@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { machinery } from "../machinery_constants";
+import { machinery } from "@/app/machinery/machinery_constants";
 import { ArrowRight } from "lucide-react";
 
 export default function FeaturedMachinery() {
