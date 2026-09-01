@@ -11,7 +11,7 @@ import {
   ChevronRight,
   ExternalLink,
 } from "lucide-react";
-import { companyInfo, navLinks } from "@/data/companyData";
+import { companyInfo, navLinks } from "./layout_constants";
 import ScrollToTopButton from "./ScrollToTopButton";
 import { APP_URLS } from "@/lib/app_urls";
 

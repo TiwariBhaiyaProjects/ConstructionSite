@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { Calculator, ShieldCheck, Star, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import EstimateForm from "@/components/EstimateForm";
+import HomeEstimateForm from "./HomeEstimateForm";
 import { motion } from "framer-motion";
-import { companyInfo } from "@/data/companyData";
+import { companyInfo } from "./home_constants";
 import { landingImages } from "../home_constants";
 import Image from "next/image";
 
@@ -102,7 +102,7 @@ export default function HomeHeroSection() {
               <p className="text-white/80 text-sm">Share your project details, we'll prepare a detailed BOQ</p>
             </div>
             <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-5 relative z-10 shadow-inner">
-              <EstimateForm source="Home hero" buttonText="Get Quote Now →" compact={false} />
+              <HomeEstimateForm source="Home hero" buttonText="Get Quote Now →" compact={false} />
             </div>
             <p className="text-xs text-center text-white/60 mt-5 font-medium relative z-10">No spam. Response within 24 hours</p>
           </motion.div>

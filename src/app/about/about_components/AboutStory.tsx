@@ -1,6 +1,6 @@
 import { ShieldCheck } from "lucide-react";
 import Image from "next/image";
-import { companyInfo, aboutUsText } from "@/data/companyData";
+import { companyInfo, aboutUsText } from "./about_constants";
 
 export default function AboutStory() {
   return (

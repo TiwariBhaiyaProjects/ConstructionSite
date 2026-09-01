@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { financialTurnover, collaborativeExperience } from "@/data/companyData";
+import { financialTurnover, collaborativeExperience } from "./about_constants";
 
 export default function AboutFinancials() {
   return (

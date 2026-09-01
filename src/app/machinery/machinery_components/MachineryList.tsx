@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { machinery } from "@/data/companyData";
+import { machinery } from "../machinery_constants";
 import { machineryCategories } from "../machinery_constants";
 
 export default function MachineryList() {

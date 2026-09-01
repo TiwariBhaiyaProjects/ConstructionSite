@@ -1,8 +1,8 @@
 "use client";
 
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
-import EstimateForm from "@/components/EstimateForm";
-import { companyInfo } from "@/data/companyData";
+import HomeEstimateForm from "./HomeEstimateForm";
+import { companyInfo } from "./home_constants";
 
 export default function HomeFinalCTA() {
   const whatsappUrl = `https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
@@ -54,7 +54,7 @@ export default function HomeFinalCTA() {
 
           <div className="bg-white/10 backdrop-blur rounded-2xl p-8">
             <h3 className="text-2xl font-bold mb-4 text-center">Get Free Estimate</h3>
-            <EstimateForm source="Home Final CTA" buttonText="Submit Request →" />
+            <HomeEstimateForm source="Home Final CTA" buttonText="Submit Request →" />
             <p className="text-xs text-center text-white/60 mt-4">We'll respond within 24 hours</p>
           </div>
         </div>

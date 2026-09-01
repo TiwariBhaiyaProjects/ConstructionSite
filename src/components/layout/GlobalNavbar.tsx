@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { APP_URLS } from "@/lib/app_urls";
+import { companyInfo } from "./layout_constants";
 import { 
   Calculator, 
   Menu, 
@@ -26,16 +27,6 @@ import {
   ShieldCheck
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-// Company Data
-const companyInfo = {
-  name: "Rajnandini Construction",
-  phone: "+91 98765 43210",
-  email: "info@rajnandiniconstruction.com",
-  iso: "ISO 9001:2015 Certified",
-  whatsapp: "+919876543210",
-  address: "Ranchi, Jharkhand",
-};
 
 // Navigation Links with Icons
 const navLinks = [

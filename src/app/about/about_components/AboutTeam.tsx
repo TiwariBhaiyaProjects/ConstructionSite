@@ -1,6 +1,6 @@
 import { HardHat, CheckCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { teamMembers, workExperience, vendorPartners } from "@/data/companyData";
+import { teamMembers, workExperience, vendorPartners } from "./about_constants";
 
 export default function AboutTeam() {
   return (

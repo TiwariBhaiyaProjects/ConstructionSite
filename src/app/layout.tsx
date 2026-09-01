@@ -4,8 +4,9 @@ import "./globals.css";
 import { Providers } from "./providers";
 import GlobalNavbar from "@/components/layout/GlobalNavbar";
 import GlobalFooter from "@/components/layout/GlobalFooter";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import NextTopLoader from "nextjs-toploader";
+import GlobalWhatsAppButton from "@/components/layout/GlobalWhatsAppButton";
+import ScrollToTopButton from "@/components/layout/ScrollToTopButton";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -60,8 +61,9 @@ export default function RootLayout({
           <GlobalNavbar />
           <main className="flex-1">{children}</main>
           <GlobalFooter />
-          <WhatsAppButton />
         </Providers>
+        <GlobalWhatsAppButton />
+        <ScrollToTopButton />
       </body>
     </html>
   );
