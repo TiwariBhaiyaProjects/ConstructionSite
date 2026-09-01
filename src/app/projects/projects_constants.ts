@@ -25,10 +25,10 @@ export const companyInfo = {
 
 // Key statistics
 export const stats = [
-  { value: "11+", label: "Completed Projects", icon: "building" },
-  { value: "11+", label: "Years Experience", icon: "schedule" },
-  { value: "100+", label: "Machines & Tools", icon: "construction" },
-  { value: "1100+ Cr", label: "Project Value", icon: "verified" },
+  { value: "16+", label: "Total Projects", icon: "building" },
+  { value: "13+", label: "Years Experience", icon: "schedule" },
+  { value: "90+", label: "Heavy Machineries", icon: "construction" },
+  { value: "1400+ Cr", label: "Project Value", icon: "verified" },
 ];
 
 // Navigation links
