@@ -805,3 +805,564 @@ export const contractorLicenses = [
     panNumber: "CXHPK1182P"
   }
 ];
+
+export const completeFleet = [
+  {
+    "id": 1,
+    "category": "BACKHOE LOADER",
+    "details": "1250-BR01GM /BR01GM-1250 / BR01GM-1250 497 BACKHOE LOADER-1250 JCB JCB-3DX",
+    "owner": "Self"
+  },
+  {
+    "id": 2,
+    "category": "BOLERO CAMPER",
+    "details": "4313-BR01GM /BR01GM-4313 / BR01GM-4313 524 CAMPER-4313",
+    "owner": "Self"
+  },
+  {
+    "id": 3,
+    "category": "BOOM PLACER",
+    "details": "6047-BR01GP /BR01GP-6047 / BR01GP-6047 516 BOOM-6047",
+    "owner": "Self"
+  },
+  {
+    "id": 4,
+    "category": "DG SET",
+    "details": "125KVA DG-SVE125-177 / / 546 SWE91018SVE125-177 SUPERNOVA ENGINEERS LTD SVE125",
+    "owner": "Self"
+  },
+  {
+    "id": 5,
+    "category": "DG SET",
+    "details": "180KVA DG-1803-3929 / / 533 1803-3929 Cummins",
+    "owner": "Self"
+  },
+  {
+    "id": 6,
+    "category": "DG SET",
+    "details": "660KVA DG-N17E218600 / / 570 N17E218600",
+    "owner": "Self"
+  },
+  {
+    "id": 7,
+    "category": "DIESEL TANKER",
+    "details": "2355-BR01GD /BR01GD-2355 / BR01GD-2355 520 DIESEL TANKER-2355",
+    "owner": "Self"
+  },
+  {
+    "id": 8,
+    "category": "HYDRAULIC EXCAVATOR",
+    "details": "JCB/NXT-210-64167 / / 553 PUNJD21AHT3664167 JCB JCB NXT JS -215 FM",
+    "owner": "Self"
+  },
+  {
+    "id": 9,
+    "category": "HYDRAULIC EXCAVATOR",
+    "details": "SANY-215C-1142D8 / / 552 SY021CF1142D8 Sany SY215C-9LC",
+    "owner": "Self"
+  },
+  {
+    "id": 10,
+    "category": "HYDRAULIC EXCAVATOR TATA",
+    "details": "HITACHI-086333 / / 554 THEDJLL2E00086333 Tata Hitachi Tata Hitachi Ex210 LC Prime",
+    "owner": "Self"
+  },
+  {
+    "id": 11,
+    "category": "HYDROULIC MOBILE CRANE",
+    "details": "8372-BR01GM /BR01GM-8372 / BR01GM-8372 493 ACE FARANA 15 TON-8372 Action Constu. Equipment Ltd. F150",
+    "owner": "Self"
+  },
+  {
+    "id": 12,
+    "category": "INNOVA",
+    "details": "1747-BR01PL /BR01PL-1747 / BR01PL-1747 528 INNOVA-1747",
+    "owner": "Self"
+  },
+  {
+    "id": 13,
+    "category": "KERB MACHINE KERB",
+    "details": "MACHINE-031090 / / 568 AIN16469TN3031090 Apollo KLM120",
+    "owner": "Self"
+  },
+  {
+    "id": 14,
+    "category": "MINI TANDEM ROLLER",
+    "details": "2012-HR11P /HR11P-2012 / HR11P-2012 502 MINI TANDEM-2012 Case",
+    "owner": "Self"
+  },
+  {
+    "id": 15,
+    "category": "MOTOR GRADER GRADER",
+    "details": "4180D-RNC / / 550 4180D-9G0457 LIUGONG 4180D",
+    "owner": "Self"
+  },
+  {
+    "id": 16,
+    "category": "PLANT HM",
+    "details": "001 / / 532 HM PLANT 160 TPH Marini",
+    "owner": "Self"
+  },
+  {
+    "id": 17,
+    "category": "PLANT RMC",
+    "details": "001 / / 530 RMC BATHING PLANT (60 M3/H) Schwing Stettter",
+    "owner": "Self"
+  },
+  {
+    "id": 18,
+    "category": "PLANT WMM",
+    "details": "001 / / 531 WMM PLANT 120 TPH Macons",
+    "owner": "Self"
+  },
+  {
+    "id": 19,
+    "category": "SCORPIO",
+    "details": "1747-BR21AH /BR21AH-1747 / BR21AH-1747 519 SCORPIO N-1747 Mahindra Ltd. SCORPIO N D MT 2WD Z6 7S",
+    "owner": "Self"
+  },
+  {
+    "id": 20,
+    "category": "SENSOR PAVER VOGELE",
+    "details": "PAVER-22448655 / / 567 14823589/22448655 Vogele Super-1800-3",
+    "owner": "Self"
+  },
+  {
+    "id": 21,
+    "category": "TANDEM ROLLER TANDEM",
+    "details": "ROLLER-201215 / / 563 H21805201215 HAMM",
+    "owner": "Self"
+  },
+  {
+    "id": 22,
+    "category": "TIPPER",
+    "details": "1750-UP38AT /UP38AT-1750 / UP38AT-1750 481 TIPPER 1750 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 23,
+    "category": "TIPPER",
+    "details": "1751-UP38AT /UP38AT-1751 / UP38AT-1751 482 TIPPER 1751 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 24,
+    "category": "TIPPER",
+    "details": "1752-UP38AT /UP38AT-1752 / UP38AT-1752 483 TIPPER 1752 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 25,
+    "category": "TIPPER",
+    "details": "1753-UP38AT /UP38AT-1753 / UP38AT-1753 484 TIPPER 1753 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 26,
+    "category": "TIPPER",
+    "details": "1754-UP38AT /UP38AT-1754 / UP38AT-1754 485 TIPPER 1754 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 27,
+    "category": "TIPPER",
+    "details": "1755-UP38AT /UP38AT-1755 / UP38AT-1755 486 TIPPER 1755 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 28,
+    "category": "TIPPER",
+    "details": "4720-BR01GF /BR01GF-4720 / BR01GF-4720 469 TIPPER 4720 Tata Motor Ltd.",
+    "owner": "Self"
+  },
+  {
+    "id": 29,
+    "category": "TIPPER",
+    "details": "6627-BR01GL /BR01GL-6627 / BR01GL-6627 59 TIPPER-6627 Bharat Benz BHARATBENZ 3528C 8X4 BSVI-5",
+    "owner": "Self"
+  },
+  {
+    "id": 30,
+    "category": "TIPPER",
+    "details": "6628-BR01GL /BR01GL-6628 / BR01GL-6628 467 TIPPER-6628 Bharat Benz BHARATBENZ 3528C 8X4 BSVI-5",
+    "owner": "Self"
+  },
+  {
+    "id": 31,
+    "category": "TRACTOR WATER TANKER TRACTOR WATER",
+    "details": "TANKER-861F2 / / 566 3100ELS131261861F2 SONALIKA SONALIKA Di 35",
+    "owner": "Self"
+  },
+  {
+    "id": 32,
+    "category": "TRANSIT MIXTURE",
+    "details": "0464-HR69E /HR69E-0464 / HR69E-0464 513 TM-0464",
+    "owner": "Self"
+  },
+  {
+    "id": 33,
+    "category": "TRANSIT MIXTURE",
+    "details": "2246-HR69E /HR69E-2246 / HR69E-2246 512 TM-2246",
+    "owner": "Self"
+  },
+  {
+    "id": 34,
+    "category": "TRANSIT MIXTURE",
+    "details": "3152-HR69E /HR69E-3152 / HR69E-3152 511 TM-3152",
+    "owner": "Self"
+  },
+  {
+    "id": 35,
+    "category": "TRANSIT MIXTURE",
+    "details": "6695-GJ16X /GJ16X-6695 / GJ16X-6695 508 TM-6695",
+    "owner": "Self"
+  },
+  {
+    "id": 36,
+    "category": "TRANSIT MIXTURE",
+    "details": "9262-JH12C /JH12C-9262 / JH12C-9262 509 TM-9262",
+    "owner": "Self"
+  },
+  {
+    "id": 37,
+    "category": "TRANSIT MIXTURE",
+    "details": "9274-PB65AS /PB65AS-9274 / PB65AS-9274 510 TM 9274",
+    "owner": "Self"
+  },
+  {
+    "id": 38,
+    "category": "WHEEL LOADER",
+    "details": "3827-HR11P /HR11P-3827 / HR11P-3827 503 WHEEL LOADER-3827 Liugong India Pvt. Ltd. CLG848H",
+    "owner": "Self"
+  },
+  {
+    "id": 39,
+    "category": "YODHA PICKUP",
+    "details": "0908-BR01GL /BR01GL-0908 / BR01GL-0908 527 BOLERO 0908",
+    "owner": "Self"
+  },
+  {
+    "id": 40,
+    "category": "BACKHOE LOADER",
+    "details": "0279-GJ09DA /GJ09DA-0279 / GJ09DA-0279 494 BACKHOE LOADER-0279 Escort Ltd Construction Escort Digmax II",
+    "owner": "Hired"
+  },
+  {
+    "id": 41,
+    "category": "BACKHOE LOADER",
+    "details": "0471-GJ09DA /GJ09DA-0471 / GJ09DA-0471 495 BACKHOE LOADER-0471 Monitou",
+    "owner": "Hired"
+  },
+  {
+    "id": 42,
+    "category": "BACKHOE LOADER",
+    "details": "0490-GJ09DA /GJ09DA-0490 / GJ09DA-0490 496 BACKHOE LOADER-0490 Monitou",
+    "owner": "Hired"
+  },
+  {
+    "id": 43,
+    "category": "BITUMEN BROWSER",
+    "details": "8483-BR28GA /BR28GA-8483 / BR28GA-8483 517 BITUMEN-8483",
+    "owner": "Hired"
+  },
+  {
+    "id": 44,
+    "category": "BOLERO",
+    "details": "0391-BR29PA /BR29PA-0391 / BR29PA-0391 522 BOLERO-0391",
+    "owner": "Hired"
+  },
+  {
+    "id": 45,
+    "category": "BOLERO",
+    "details": "1046-BR01PG /BR01PG-1046 / BR01PG-1046 523 BOLERO-1046",
+    "owner": "Hired"
+  },
+  {
+    "id": 46,
+    "category": "BOLERO",
+    "details": "1966-GJ02DM /GJ02DM-1966 / GJ02DM-1966 521 BOLERO-1966",
+    "owner": "Hired"
+  },
+  {
+    "id": 47,
+    "category": "BOLERO CAMPER",
+    "details": "3987-GJ09BB /GJ09BB-3987 / GJ09BB-3987 525 CAMPER-3987",
+    "owner": "Hired"
+  },
+  {
+    "id": 48,
+    "category": "BOLERO CAMPER",
+    "details": "7437-UP54BT /UP54BT-7437 / UP54BT-7437 526 CAMPER-7423",
+    "owner": "Hired"
+  },
+  {
+    "id": 49,
+    "category": "DG SET",
+    "details": "20KVA DG-26697 / / 537 P3P8AC26697 Mahindra P3P8AC26697",
+    "owner": "Hired"
+  },
+  {
+    "id": 50,
+    "category": "DG SET",
+    "details": "20KVA DG-27429 / / 541 P3S8AC27429 Mahindra P3S8AC27429",
+    "owner": "Hired"
+  },
+  {
+    "id": 51,
+    "category": "DG SET",
+    "details": "25KVA DG-0600077 / / 543 0600077 Kirloskar 600077",
+    "owner": "Hired"
+  },
+  {
+    "id": 52,
+    "category": "DG SET",
+    "details": "25KVA DG-49K275 / / 539 JC/WC/25/KRL/49K275 Kirloskar 49K275",
+    "owner": "Hired"
+  },
+  {
+    "id": 53,
+    "category": "DG SET",
+    "details": "25KVA DG-E/3605650 / / 538 E-3605650 Greaves E-3605650",
+    "owner": "Hired"
+  },
+  {
+    "id": 54,
+    "category": "DG SET",
+    "details": "25KVA DG-G25E4 / / 542 E-3032353/AEGPG25E4 Escort E-3032353/AEGPG25E4",
+    "owner": "Hired"
+  },
+  {
+    "id": 55,
+    "category": "DG SET",
+    "details": "30KVA DG-47.3001/0600169 / / 545 47.3001/0600169 Kirloskar 47.3001/0600169",
+    "owner": "Hired"
+  },
+  {
+    "id": 56,
+    "category": "DG SET",
+    "details": "30KVA DG-49K364 /30KVA- / 30KVA- 540 JC/WC/30/KRL/49K364 Kirloskar 49K364",
+    "owner": "Hired"
+  },
+  {
+    "id": 57,
+    "category": "DG SET",
+    "details": "58.5KVA DG-34K125 / / 536 JC/WC/58.5/TP/34K125 Kirloskar 34K125",
+    "owner": "Hired"
+  },
+  {
+    "id": 58,
+    "category": "DG SET",
+    "details": "62KVA DG-09900027 /62KVA DG- / 62KVA DG- 544 09900027 Kirloskar 9900027",
+    "owner": "Hired"
+  },
+  {
+    "id": 59,
+    "category": "ERTIGA",
+    "details": "2513-JH09BH /JH09BH-2513 / JH09BH-2513 121 ERTIGA 2513",
+    "owner": "Hired"
+  },
+  {
+    "id": 60,
+    "category": "HYDRA",
+    "details": "0134-GJ09DA /GJ09DA-0134 / GJ09DA-0134 487 HYDRA 0134 Escort Ltd Construction HYDRA 14",
+    "owner": "Hired"
+  },
+  {
+    "id": 61,
+    "category": "HYDRA",
+    "details": "0373-GJ09DA /GJ09DA-0373 / GJ09DA-0373 488 HYDRA-0373 Escort Ltd Construction HYDRA 14",
+    "owner": "Hired"
+  },
+  {
+    "id": 62,
+    "category": "HYDRA",
+    "details": "6545-BR01GJ /BR01GJ-6545 / BR01GJ-6545 571 HYDRA-6545 Escort",
+    "owner": "Hired"
+  },
+  {
+    "id": 63,
+    "category": "HYDRAULIC EXCAVATOR EXCAVATOR",
+    "details": "LIUGONG-00414 / / 558 LGI921DZELN900414 Liugong Liugong 921",
+    "owner": "Hired"
+  },
+  {
+    "id": 64,
+    "category": "HYDRAULIC EXCAVATOR",
+    "details": "HYUNDAI-210-0005241 / / 560 HYNDN633PE0005241 HYUNDAI HYUNDAI-210",
+    "owner": "Hired"
+  },
+  {
+    "id": 65,
+    "category": "HYDRAULIC EXCAVATOR",
+    "details": "SANY-210C-000755 / / 555 22SY210C000755 Sany SY210C-9",
+    "owner": "Hired"
+  },
+  {
+    "id": 66,
+    "category": "HYDRAULIC EXCAVATOR TATA",
+    "details": "HITACHI-000347 / / 559 THEDC0L0E00000347 Tata Hitachi Tata Hitachi Zaxis-220",
+    "owner": "Hired"
+  },
+  {
+    "id": 67,
+    "category": "HYDRAULIC EXCAVATOR TATA",
+    "details": "HITACHI-00068677 / / 556 THEDJLL0J00068677 Tata Hitachi Tata Hitachi Ex210 Super",
+    "owner": "Hired"
+  },
+  {
+    "id": 68,
+    "category": "HYDRAULIC EXCAVATOR TATA",
+    "details": "HITACHI-57644 / / 557 SP20-57644 Tata Hitachi Tata Hitachi Ex200 LC",
+    "owner": "Hired"
+  },
+  {
+    "id": 69,
+    "category": "MINI TRUCK",
+    "details": "1709-BR25GA /BR25GA-1709 / BR25GA-1709 518 MINI TRUCK-1709 Tata Motor Ltd. Tata LPt 1109",
+    "owner": "Hired"
+  },
+  {
+    "id": 70,
+    "category": "SOIL COMPACTOR",
+    "details": "0302-GJ09DA /GJ09DA-0302 / GJ09DA-0302 498 SOIL COMPACTOR-0302 WIRTGEN INDIA PVT LTD 311",
+    "owner": "Hired"
+  },
+  {
+    "id": 71,
+    "category": "SOIL COMPACTOR",
+    "details": "0597-GJ09DA /GJ09DA-0597 / GJ09DA-0597 499 SOIL COMPACTOR-0597 AMMAN APOLLO INDIA PVT LTD ARS110.2",
+    "owner": "Hired"
+  },
+  {
+    "id": 72,
+    "category": "SOIL COMPACTOR DYNAPAC",
+    "details": "ROLLER-0318 / / 562 10200154EJE005017*0318 DYNAPAC DYNAPAC CA255",
+    "owner": "Hired"
+  },
+  {
+    "id": 73,
+    "category": "SOIL COMPACTOR LIUGONG",
+    "details": "ROLLER-6C0163 / / 561 LGI611ZZJRN6C0163 Liugong",
+    "owner": "Hired"
+  },
+  {
+    "id": 74,
+    "category": "TIPPER",
+    "details": "7567-GJ09AU /GJ09AU-7567 / GJ09AU-7567 472 TIPPER 7567 Ashok Leyland UJ3525/52 T TIP",
+    "owner": "Hired"
+  },
+  {
+    "id": 75,
+    "category": "TIPPER",
+    "details": "7625-GJ09AU /GJ09AU-7625 / GJ09AU-7625 477 TIPPER-7625 Eicher Eicher pro 6035T L TB BSVI",
+    "owner": "Hired"
+  },
+  {
+    "id": 76,
+    "category": "TIPPER",
+    "details": "7651-GJ09AU /GJ09AU-7651 / GJ09AU-7651 475 TIPPER 7651 Eicher Eicher pro 6035T L TB BSVI",
+    "owner": "Hired"
+  },
+  {
+    "id": 77,
+    "category": "TIPPER",
+    "details": "7700-GJ09AU /GJ09AU-7700 / GJ09AU-7700 478 TIPPER-7700 Eicher",
+    "owner": "Hired"
+  },
+  {
+    "id": 78,
+    "category": "TIPPER",
+    "details": "7702-GJ09AU /GJ09AU-7702 / GJ09AU-7702 474 TIPPER-7702 Ashok Leyland UJ3525/52 T TIP",
+    "owner": "Hired"
+  },
+  {
+    "id": 79,
+    "category": "TIPPER",
+    "details": "7793-GJ09AU /GJ09AU-7793 / GJ09AU-7793 480 TIPPER-7793 Ashok Leyland",
+    "owner": "Hired"
+  },
+  {
+    "id": 80,
+    "category": "TIPPER",
+    "details": "7794-GJ09AU /GJ09AU-7794 / GJ09AU-7794 479 TIPPER-7794 Ashok Leyland",
+    "owner": "Hired"
+  },
+  {
+    "id": 81,
+    "category": "TIPPER",
+    "details": "7914-GJ09AU /GJ09AU-7914 / GJ09AU-7914 476 TIPPER-7914 Ashok Leyland UJ3525/52 T TIP",
+    "owner": "Hired"
+  },
+  {
+    "id": 82,
+    "category": "TIPPER",
+    "details": "8135-GJ09AU /GJ09AU-8135 / GJ09AU-8135 473 TIPPER 8135 Eicher Eicher pro 6035T L BB BSVI",
+    "owner": "Hired"
+  },
+  {
+    "id": 83,
+    "category": "TIPPER",
+    "details": "8313-GJ09AU /GJ09AU-8313 / GJ09AU-8313 470 TIPPER 8313 Eicher Eicher pro 6035T L BB BSVI",
+    "owner": "Hired"
+  },
+  {
+    "id": 84,
+    "category": "TIPPER",
+    "details": "GJ09AU 8306 /GJ09AU 8306 / GJ09AU 8306 471 TIPPER 8306 Eicher Eicher pro 6035T L BB BSVI",
+    "owner": "Hired"
+  },
+  {
+    "id": 85,
+    "category": "TRACTOR WATER TANKER",
+    "details": "4931-BR29GA /BR29GA-4931 / BR29GA-4931 506 WATER TANKER 4931 SONALIKA SONALIKA Di 35",
+    "owner": "Hired"
+  },
+  {
+    "id": 86,
+    "category": "TRAILER",
+    "details": "3289-NL01N /NL01N-3289 / NL01N-3289 491 TRAILER 3289",
+    "owner": "Hired"
+  },
+  {
+    "id": 87,
+    "category": "TRAILER",
+    "details": "8932-NL02Q /NL02Q-8932 / NL02Q-8932 490 TRAILER 8932",
+    "owner": "Hired"
+  },
+  {
+    "id": 88,
+    "category": "TRAILER",
+    "details": "9723-UP53BT /UP53BT-9723 / UP53BT-9723 492 TRAILER 9723",
+    "owner": "Hired"
+  },
+  {
+    "id": 89,
+    "category": "TRANSIT MIXTURE",
+    "details": "1075-HR38AG /HR38AG-1075 / HR38AG-1075 514 TM-1075",
+    "owner": "Hired"
+  },
+  {
+    "id": 90,
+    "category": "TRANSIT MIXTURE",
+    "details": "3859-HR38AE /HR38AE-3859 / HR38AE-3859 515 TM-3859",
+    "owner": "Hired"
+  },
+  {
+    "id": 91,
+    "category": "WATER TANKER",
+    "details": "0410-BR02AA /BR02AA-0410 / BR02AA-0410 505 TANKER 0410",
+    "owner": "Hired"
+  },
+  {
+    "id": 92,
+    "category": "WATER TANKER",
+    "details": "4010-UP53BT /UP53BT-4010 / UP53BT-4010 507 TANKER 4010",
+    "owner": "Hired"
+  },
+  {
+    "id": 93,
+    "category": "WATER TANKER",
+    "details": "7423-JH09G /JH09G-7423 / JH09G-7423 504 WATER TANKER 7423",
+    "owner": "Hired"
+  }
+];
