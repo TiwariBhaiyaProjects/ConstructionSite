@@ -2,22 +2,24 @@
 export const companyInfo = {
   name: "Rajnandini Construction",
   established: "2013",
-  phone: "+91 9122443841",
+  phone: "+91 9971889395, +91 9122443841",
   whatsapp: "+91 9122443841",
-  email: "singhrajkishor8@gmail.com",
-  address: "Reg. Office: 411, Hem Plaza, Beside LIC Building, Fraser Road, Patna-800001",
-  serviceArea: "Bihar",
+  email: "info@rncgroups.com, raj.kishor@rncgroups.com",
+  address: "Reg. Office: At+ P.O. Jamalpur, P.S: Athmalgola, Dist: Patna, Bihar, Pin- 803211",
+  branchAddress: "411, Hem Plaza, Fraser Road, Patna-800001",
+  proprietor: "Raj Kishor",
+  serviceArea: "Bihar & Jharkhand",
   gstin: "10CXHPK1182P1ZC",
-  msme: "Govt Contractor License: 59/2020, 1077/19, 233/19",
-  iso: "Queensland Builders License",
-  workingHours: "Mon - Sat: 8:00 AM - 7:00 PM",
+  msme: "Govt Contractor License: 59/2026, 170620260225",
+  iso: "ISO 9001:2015 Certified",
+  workingHours: "Mon - Sat: 9:00 AM - 7:00 PM",
   description: "Rajnandini Construction was formed in 2013 with the objective of establishing a sustainable and continually improving construction company for predictable and quality constructions.",
 };
 
 // Key statistics
 export const stats = [
   { value: "11+", label: "Completed Projects", icon: "building" },
-  { value: "13+", label: "Years Experience", icon: "schedule" },
+  { value: "11+", label: "Years Experience", icon: "schedule" },
   { value: "100+", label: "Machines & Tools", icon: "construction" },
   { value: "1100+ Cr", label: "Project Value", icon: "verified" },
 ];
@@ -491,26 +493,65 @@ export const projects = [
 
 export const liveProjects = [
   {
-    title: "Improvement and Up-gradation to Four Lane NH-227A",
-    location: "Bihar",
-    progress: 50,
-    update: "Paved Shoulder configuration in progress on Hybrid Annuity Mode.",
-    week: "Ongoing",
+    id: 1,
+    title: "Improvement and Up-gradation to Four Lane of NH-227A",
+    client: "CDS INFRA (MORTH)",
+    location: "Mehrauna Ghat to Siwan (Bihar)",
+    value: "719 Cr",
+    progress: 45,
+    status: "Ongoing",
+    description: "Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500. Total design length 40.842 Km."
   },
   {
-    title: "Four/Six Laning of Auta - Simaria (Ganga Bridge)",
+    id: 2,
+    title: "New Construction of Four/Six Lane Road Project (Greenfield)",
+    client: "Govt of Bihar",
+    location: "Aunta-Simariya Project",
+    value: "348.4 Cr",
+    progress: 70,
+    status: "Ongoing",
+    description: "Major greenfield road construction project."
+  },
+  {
+    id: 3,
+    title: "Construction of Six-Lane ROB of 76m Span",
+    client: "Railway Authority",
+    location: "Hathidah station",
+    value: "Undisclosed",
+    progress: 30,
+    status: "Ongoing",
+    description: "Road Over Bridge construction."
+  },
+  {
+    id: 4,
+    title: "Construction of LVUP, VUP, SVUP, Viaduct & IOCL Portal",
+    client: "IOCL / Govt",
     location: "Bihar",
+    value: "Undisclosed",
     progress: 60,
-    update: "Ganga Bridge with Approach Road construction ongoing.",
-    week: "Ongoing",
+    status: "Ongoing",
+    description: "Multiple viaducts and underpasses."
   },
   {
-    title: "Four Lane Purina Saharsha Road Project",
-    location: "Bihar",
-    progress: 75,
-    update: "Road work and widening project with machinery-backed execution.",
-    week: "Ongoing",
+    id: 5,
+    title: "Six Lane RUB at Rampur Dumra Railway Line",
+    client: "Railway Authority",
+    location: "Rampur Dumra",
+    value: "Undisclosed",
+    progress: 20,
+    status: "Ongoing",
+    description: "Road Under Bridge construction."
   },
+  {
+    id: 6,
+    title: "Construction of Major Bridge in Choti Gandak River",
+    client: "Govt",
+    location: "Ram-Janki Marg NH227A",
+    value: "Undisclosed",
+    progress: 55,
+    status: "Ongoing",
+    description: "Major bridge construction."
+  }
 ];
 
 export const testimonials = [
@@ -737,33 +778,33 @@ export const vendorPartners = [
 // Machinery fleet
 export const machineryStats = [
   { count: "35", label: "Dumpers/Trucks", icon: "local_shipping" },
-  { count: "4", label: "Excavators", icon: "precision_manufacturing" },
-  { count: "3", label: "Backhoe Loaders", icon: "handyman" },
-  { count: "3", label: "Motor Graders", icon: "settings" },
-  { count: "2", label: "Dozers", icon: "straighten" },
+  { count: "9", label: "Excavators", icon: "precision_manufacturing" },
+  { count: "10", label: "Transit Mixers", icon: "airport_shuttle" },
+  { count: "6", label: "Backhoe Loaders", icon: "handyman" },
+  { count: "4", label: "Motor Graders", icon: "settings" },
 ];
 
 export const machineryList = [
   { name: "Dumper / Truck", count: 35 },
-  { name: "Ready Mix Concrete Plants (30m3 & 60m3)", count: 2 },
-  { name: "WMM/CTSB Plant", count: 1 },
-  { name: "Hot mix plant 120 TPH", count: 1 },
-  { name: "Motor Grader", count: 3 },
+  { name: "Ready Mix Concrete Plans(30m³ & 60m³)", count: 3 },
+  { name: "WMM / CTSB Plant", count: 2 },
+  { name: "Hotmix plant 120TPH", count: 2 },
+  { name: "Motor Grader", count: 4 },
   { name: "Dozer", count: 2 },
-  { name: "Excavators", count: 4 },
-  { name: "Tractor With Trolley & Tanker", count: 3 },
-  { name: "Transit Mixer/Miller", count: 4 },
-  { name: "Water Tanker", count: 5 },
-  { name: "Soil Compactor", count: 3 },
-  { name: "Backhoe Loader", count: 3 },
-  { name: "Hydra Crane", count: 2 },
-  { name: "Diesel Tanker", count: 2 },
-  { name: "DG 5 KVA", count: 8 },
-  { name: "DG 30 KVA", count: 5 },
-  { name: "DG 125 KVA", count: 4 },
-  { name: "DG 200 KVA", count: 1 },
-  { name: "Steel Cutting & Bending M/C", count: 5 },
-  { name: "LMV (Bolero & Camper)", count: 5 },
+  { name: "Excavators", count: 9 },
+  { name: "Tractor With Trolley & Tanker", count: 8 },
+  { name: "Transit Mixer / Miller", count: 10 },
+  { name: "Water Tanker", count: 4 },
+  { name: "Soil Compactor", count: 4 },
+  { name: "Backhoe Loader", count: 6 },
+  { name: "Hydra Crane", count: 5 },
+  { name: "Diesel Tanker", count: 3 },
+  { name: "DG 30KVA", count: 8 },
+  { name: "DG 63KVA", count: 5 },
+  { name: "DG 125KVA", count: 4 },
+  { name: "DG 250KVA", count: 4 },
+  { name: "Steel Cutting & Bending Machine", count: 12 },
+  { name: "LMV (Bolero & Camper)", count: 11 },
 ];
 
 export const machinery = [
@@ -843,23 +884,92 @@ export const machinery = [
 ];
 
 export const financialTurnover = [
-  { year: "2018-2019", turnover: "45 CR" },
-  { year: "2019-2020", turnover: "70 CR" },
-  { year: "2021-2022", turnover: "120 CR" },
-  { year: "2022-2023", turnover: "182 CR" },
-  { year: "2023-2024", turnover: "220 CR" },
+  { year: "2023-2024", turnover: "71.3 CR", icon: "trending_up" },
+  { year: "2024-2025", turnover: "75.5 CR", icon: "trending_up" },
+  { year: "2025-2026", turnover: "364.0 CR", icon: "trending_up" },
 ];
 
 export const workExperience = [
-  "Four line / six line up to BBM BC",
-  "ROB Six spam including bosting 76metr",
-  "LVOP, VOP, SVOP & BOX",
-  "RUB, SIX LINE",
-  "RUB BOX PUSH SIX LINE",
-  "VIADUCT",
-  "Building construction",
-  "Water supply",
-  "Irrigation, Kenal, Nahar",
+  {
+    id: 1,
+    title: "Patna Dobhi Road Project Sec-1",
+    client: "NHAI / Govt",
+    completionYear: "2016",
+    value: "15 Cr",
+    description: "Road construction project section 1."
+  },
+  {
+    id: 2,
+    title: "PHED Khagaria (Bihar) (Rural & Urban Water supply)",
+    client: "PHED Bihar",
+    completionYear: "2020",
+    value: "120 Cr",
+    description: "Extensive rural and urban water supply infrastructure."
+  },
+  {
+    id: 3,
+    title: "Erosion protection Work from Salehpur Tundaspurchharki",
+    client: "Water Resource Department, Gopalganj(Bihar)",
+    completionYear: "2021",
+    value: "18.5 Cr",
+    description: "Km.0.0 to Km.5.0 Water Resource department."
+  },
+  {
+    id: 4,
+    title: "Executive engineer Son Nahar Division Arrah",
+    client: "Govt of Bihar",
+    completionYear: "2023",
+    value: "11.28 Cr",
+    description: "Irrigation and canal division works."
+  },
+  {
+    id: 5,
+    title: "Office of The Executive Engineer MWRS Division Gaya",
+    client: "MWRS Division Gaya",
+    completionYear: "2023",
+    value: "11.28 Cr",
+    description: "Various structural and civil works."
+  },
+  {
+    id: 6,
+    title: "Renovation of Marho pond Mokama",
+    client: "Local Administration",
+    completionYear: "2019",
+    value: "3 Cr",
+    description: "Pond renovation and beautification."
+  },
+  {
+    id: 7,
+    title: "Construction of Sub Divisional Control Room SKMCH",
+    client: "SKMCH (Muzaffarpur)",
+    completionYear: "2024",
+    value: "25 Cr",
+    description: "Advanced sub divisional control room construction."
+  },
+  {
+    id: 8,
+    title: "Office of The Executive Engineer MWRS Division Gaya (2025)",
+    client: "MWRS Division Gaya",
+    completionYear: "2025",
+    value: "8.35 Cr",
+    description: "Civil structural works."
+  },
+  {
+    id: 9,
+    title: "Construction of Four Lane Purnia-Saharsa Road Project",
+    client: "NHAI / Govt",
+    completionYear: "2025",
+    value: "120 Cr",
+    description: "Major highway widening and paving."
+  },
+  {
+    id: 10,
+    title: "Four/Six laning of Aunta-Simaria (Ganga Bridge)",
+    client: "NHAI",
+    completionYear: "2025",
+    value: "348.4 Cr",
+    description: "Section of NH-31 from KM 197+900 to 206+050. Total Design Length 8.150Km."
+  }
 ];
 
 // Contact form subjects
@@ -893,29 +1003,41 @@ export const aboutUsText = [
 export const collaborativeExperience = [
   {
     year: "Since 2016",
+    value: "15 Cr",
     client: "IL&FS Infrastructure Pvt.Ltd",
-    value: "Rs 15 Cr",
-    description: "Delivered All Projects On or Ahead of Schedule with Virtually Zero Cost Overruns."
+    description: "Through Collaboration, Mutual Respect and Trust We Delivered All Projects on or Ahead of Schedule with Virtually Zero Cost Overruns."
   },
   {
     year: "2019-20",
-    client: "PHED Department Government of Bihar",
-    value: "Rs 12 Cr",
-    description: "Done Work of Water Supply."
+    value: "12 Cr",
+    client: "PHED Department, Government of Bihar",
+    description: "We Have Done Work of Water Supply."
   },
   {
-    year: "Currently",
-    client: "Four Lane Purina Saharsha Road Project",
-    value: "Rs 220 Cr",
-    description: "Working in Four Lane Purina Saharsha Road Project in This Financial Year and Work Is Going On."
+    year: "Current",
+    value: "719 Cr",
+    client: "MORTH",
+    description: "Project Improvement and Up-gradation to Four Lane with Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500 of NH-227A (near Mehrauna Ghat to Siwan)."
   }
 ];
 
 export const contractorLicenses = [
-  { name: "Queensland Builders License", type: "Builder License", authority: "Queensland Government" },
-  { name: "Water Resource Department", type: "Govt Contractor License", authority: "No. 59/2020" },
-  { name: "Public Health Engineering Department", type: "Govt Contractor License", authority: "No. 1077/19" },
-  { name: "Minor Water Resources Department", type: "Govt Contractor License", authority: "No. 233/19" },
-  { name: "PAN: CXHPK1182P", type: "Raj Kishor", authority: "Income Tax Dept" },
-  { name: "GST: 10CXHPK1182P1ZC", type: "Rajnandini Construction", authority: "Govt of India" },
+  {
+    authority: "Water Resource Department, Bihar",
+    licenseNumber: "59/2026",
+    panName: "Raj Kishor",
+    panNumber: "CXHPK1182P"
+  },
+  {
+    authority: "Public Health Engineering Department, Bihar",
+    licenseNumber: "170620260225",
+    panName: "Raj Kishor",
+    panNumber: "CXHPK1182P"
+  },
+  {
+    authority: "RWD",
+    licenseNumber: "PT/CLR/2026/00251",
+    panName: "Raj Kishor",
+    panNumber: "CXHPK1182P"
+  }
 ];

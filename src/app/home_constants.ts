@@ -144,9 +144,66 @@ export const projects = [
 ];
 
 export const liveProjects = [
-  { title: "Ranchi Luxury Duplex", location: "Kanka, Ranchi", progress: 75, week: "Week 24", update: "First floor slab completed. Plastering work in progress. Electrical conduit work started." },
-  { title: "Hazaribagh Premium Villa", location: "Near City Center", progress: 45, week: "Week 16", update: "Ground floor walls completed. First floor shuttering work ongoing. Material delivery scheduled." },
-  { title: "Jamshedpur Commercial Hub", location: "Bistupur", progress: 30, week: "Week 12", update: "Foundation completed. Ground floor column work in progress. Steel reinforcement ongoing." },
+  {
+    id: 1,
+    title: "Improvement and Up-gradation to Four Lane of NH-227A",
+    client: "CDS INFRA (MORTH)",
+    location: "Mehrauna Ghat to Siwan (Bihar)",
+    value: "719 Cr",
+    progress: 45,
+    status: "Ongoing",
+    description: "Paved Shoulder configuration from Existing Km. 0+000 to Km. 39+500. Total design length 40.842 Km."
+  },
+  {
+    id: 2,
+    title: "New Construction of Four/Six Lane Road Project (Greenfield)",
+    client: "Govt of Bihar",
+    location: "Aunta-Simariya Project",
+    value: "348.4 Cr",
+    progress: 70,
+    status: "Ongoing",
+    description: "Major greenfield road construction project."
+  },
+  {
+    id: 3,
+    title: "Construction of Six-Lane ROB of 76m Span",
+    client: "Railway Authority",
+    location: "Hathidah station",
+    value: "Undisclosed",
+    progress: 30,
+    status: "Ongoing",
+    description: "Road Over Bridge construction."
+  },
+  {
+    id: 4,
+    title: "Construction of LVUP, VUP, SVUP, Viaduct & IOCL Portal",
+    client: "IOCL / Govt",
+    location: "Bihar",
+    value: "Undisclosed",
+    progress: 60,
+    status: "Ongoing",
+    description: "Multiple viaducts and underpasses."
+  },
+  {
+    id: 5,
+    title: "Six Lane RUB at Rampur Dumra Railway Line",
+    client: "Railway Authority",
+    location: "Rampur Dumra",
+    value: "Undisclosed",
+    progress: 20,
+    status: "Ongoing",
+    description: "Road Under Bridge construction."
+  },
+  {
+    id: 6,
+    title: "Construction of Major Bridge in Choti Gandak River",
+    client: "Govt",
+    location: "Ram-Janki Marg NH227A",
+    value: "Undisclosed",
+    progress: 55,
+    status: "Ongoing",
+    description: "Major bridge construction."
+  }
 ];
 
 export const processSteps = [

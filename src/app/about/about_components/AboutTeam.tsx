@@ -38,9 +38,12 @@ export default function AboutTeam() {
             <h3 className="text-xl font-bold mb-4">Experience Areas</h3>
             <div className="grid sm:grid-cols-2 gap-3 mb-8">
               {workExperience.map((item) => (
-                <div key={item} className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">{item}</span>
+                <div key={item.id} className="flex flex-col items-start gap-1 p-3 border rounded bg-card">
+                  <div className="flex items-center gap-2 font-bold text-sm">
+                    <CheckCircle className="w-4 h-4 text-secondary flex-shrink-0" />
+                    <span>{item.title}</span>
+                  </div>
+                  <span className="text-muted-foreground text-xs">{item.description} | Value: {item.value} | Year: {item.completionYear}</span>
                 </div>
               ))}
             </div>

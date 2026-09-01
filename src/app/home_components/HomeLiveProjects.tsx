@@ -22,7 +22,7 @@ export default function HomeLiveProjects() {
                 <div className="flex flex-wrap justify-between items-start mb-4">
                   <div>
                     <h3 className="text-2xl font-bold text-brand-dark">{proj.title}</h3>
-                    <p className="text-gray-500 flex items-center gap-1"><MapPin className="w-4 h-4" /> {proj.location} • {proj.week}</p>
+                    <p className="text-gray-500 flex items-center gap-1"><MapPin className="w-4 h-4" /> {proj.location}</p>
                   </div>
                   <div className="text-right">
                     <span className="text-4xl font-bold text-brand-primary">{proj.progress}%</span>
@@ -32,7 +32,7 @@ export default function HomeLiveProjects() {
                 <div className="h-3 bg-gray-200 rounded-full mb-4">
                   <div className="h-3 bg-brand-primary rounded-full transition-all duration-1000" style={{ width: `${proj.progress}%` }} />
                 </div>
-                <p className="text-gray-600 flex items-start gap-2"><span className="text-brand-primary">📋</span> {proj.update}</p>
+                <p className="text-gray-600 flex items-start gap-2"><span className="text-brand-primary">📋</span> {proj.description}</p>
               </CardContent>
             </Card>
           ))}

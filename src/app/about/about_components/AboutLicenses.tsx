@@ -17,15 +17,15 @@ export default function AboutLicenses() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {contractorLicenses.map((license) => (
-            <Card key={license.name} className="bg-card">
+            <Card key={license.licenseNumber} className="bg-card">
               <CardContent className="p-6">
                 <BadgeCheck className="w-9 h-9 text-secondary mb-4" />
-                <h3 className="font-bold mb-2">{license.name}</h3>
+                <h3 className="font-bold mb-2">{license.authority}</h3>
                 <p className="text-sm font-semibold text-primary mb-1">
-                  {license.type}
+                  License No: {license.licenseNumber}
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  {license.authority}
+                  PAN Name: {license.panName} | PAN No: {license.panNumber}
                 </p>
               </CardContent>
             </Card>

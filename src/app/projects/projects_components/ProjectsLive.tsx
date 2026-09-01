@@ -44,7 +44,7 @@ export default function ProjectsLive() {
                     </p>
                     <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                       <div className="flex justify-between text-sm mb-3">
-                        <span className="text-white/80 font-semibold">{project.week}</span>
+                        <span className="text-white/80 font-semibold">{project.status}</span>
                         <span className="font-black text-brand-primary">
                           {project.progress}%
                         </span>
@@ -56,7 +56,7 @@ export default function ProjectsLive() {
                         />
                       </div>
                       <p className="text-xs text-white/70 leading-relaxed">
-                        {project.update}
+                        {project.description}
                       </p>
                     </div>
                   </CardContent>
